@@ -17,8 +17,8 @@ LOCAL_FILE = os.path.join(CONFIG_DIR, 'local.txt')
 BLACKLIST_FILE = os.path.join(CONFIG_DIR, 'blacklist.txt')
 
 OUTPUT_DIR = 'output'
-IPV4_DIR = os.path.join(OUTPUT_DIR, 'ipv4')
-IPV6_DIR = os.path.join(OUTPUT_DIR, 'ipv6')
+IPV4_DIR = os.path.join(OUTPUT_DIR, '')
+IPV6_DIR = os.path.join(OUTPUT_DIR, '')
 SPEED_LOG = os.path.join(OUTPUT_DIR, 'sort.log')
 
 SPEED_TEST_DURATION = 5
@@ -436,9 +436,9 @@ def finalize_output(organized, group_order, channel_order):
 
         # 写入文件
         dir_path = IPV4_DIR if ip_type == 'ipv4' else IPV6_DIR
-        with open(os.path.join(dir_path, 'result.txt'), 'w', encoding='utf-8') as f:
+        with open(os.path.join(dir_path, 'ipv4result.txt'), 'w', encoding='utf-8') as f:
             f.write('\n'.join(txt_lines))
-        with open(os.path.join(dir_path, 'result.m3u'), 'w', encoding='utf-8') as f:
+        with open(os.path.join(dir_path, 'ipv4result.m3u'), 'w', encoding='utf-8') as f:
             f.write('\n'.join(m3u_lines))
 
         print(f"  已生成 {ip_type.upper()} 文件 → {dir_path}")

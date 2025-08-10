@@ -1,6 +1,8 @@
 #https://raw.githubusercontent.com/ZEROXIE01/IPTV/refs/heads/main/mytv1.m3u 
-https://raw.githubusercontent.com/TianmuTNT/iptv/refs/heads/main/iptv.txt 
+#https://raw.githubusercontent.com/TianmuTNT/iptv/refs/heads/main/iptv.txt 
 #https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u 
-https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo.txt
+#https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo.txt
 #https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/%E5%85%A8%E5%9B%BD.txt
-https://raw.githubusercontent.com/adminouyang/dszby/refs/heads/main/py/iptv源收集检测/主频道/专享频道/♪酒店高清.txt
+#https://raw.githubusercontent.com/adminouyang/dszby/refs/heads/main/py/iptv源收集检测/主频道/专享频道/♪酒店高清.txt
+https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250425-868403-298462cec53c48439a5765ceaca3c67f.m3u
+https://framagit.org/zhoujck/config/-/raw/main/json/移动

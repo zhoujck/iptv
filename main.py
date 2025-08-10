@@ -338,19 +338,19 @@ def process_sources(sources):
             except Exception as e:
                 print(f"⚠️ 处理异常: {str(e)}")
 
-    # 保存黑名单更新
-    if failed_domains:
-        existing = set()
-        if os.path.exists(BLACKLIST_FILE):
-            with open(BLACKLIST_FILE, 'r') as f:
-                existing = set(line.strip() for line in f)
-
-        new_domains = failed_domains - existing
-        if new_domains:
-            with open(BLACKLIST_FILE, 'a') as f:
-                for domain in new_domains:
-                    f.write(f"{domain}\n")
-            print(f"🆕 新增 {len(new_domains)} 个域名到黑名单")
+                # # 保存黑名单更新
+                # if failed_domains:
+                #     existing = set()
+                #     if os.path.exists(BLACKLIST_FILE):
+                #         with open(BLACKLIST_FILE, 'r') as f:
+                #             existing = set(line.strip() for line in f)
+            
+                #     new_domains = failed_domains - existing
+                #     if new_domains:
+                #         with open(BLACKLIST_FILE, 'a') as f:
+                #             for domain in new_domains:
+                #                 f.write(f"{domain}\n")
+                #         print(f"🆕 新增 {len(new_domains)} 个域名到黑名单")
 
     print("\n✅ 全部源检测完成")
     return processed

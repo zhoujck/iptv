@@ -1,8 +1,15 @@
-#https://raw.githubusercontent.com/ZEROXIE01/IPTV/refs/heads/main/mytv1.m3u 
-#https://raw.githubusercontent.com/TianmuTNT/iptv/refs/heads/main/iptv.txt 
-#https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u 
-#https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo.txt
-#https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/%E5%85%A8%E5%9B%BD.txt
-#https://raw.githubusercontent.com/adminouyang/dszby/refs/heads/main/py/iptv源收集检测/主频道/专享频道/♪酒店高清.txt
-https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250425-868403-298462cec53c48439a5765ceaca3c67f.m3u
-https://framagit.org/zhoujck/config/-/raw/main/json/移动
+{ 
+    "urls": [
+        { "url": "http://www.饭太硬.com/tv", "name": "饭太硬" },
+        { "url": "http://fan.xxooo.cf/tv", "name": "饭太硬（备用）" },
+        { "url": "http://xhww.fun/小米/DEMO.json", "name": "小米" },
+        { "url": "http://肥猫.live", "name": "肥猫" },
+        { "url": "https://tvbox.cainisi.cf", "name": "菜妮丝" },
+        { "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json", "name": "南风" },
+        { "url": "https://100km.top/0", "name": "骚零" },
+        { "url": "http://tv.rihou.cc/天天开心", "name": "天天开心" },
+        { "url": "http://rihou.cc:88/荷城茶秀", "name": "荷城茶秀" },
+        { "url": "https://agit.ai/hu/hcr/raw/branch/master/短剧.json", "name": "短剧频道" },
+        { "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer", "name": "少儿频道" }
+    ]
+}

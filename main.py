@@ -10,7 +10,7 @@ import threading
 from collections import OrderedDict
 
 # 配置参数
-CONFIG_DIR = 'https://github.com/zhoujck/IPTV/config'
+CONFIG_DIR = 'config'
 SUBSCRIBE_FILE = os.path.join(CONFIG_DIR, 'subscribe.txt')
 DEMO_FILE = os.path.join(CONFIG_DIR, 'demo.txt')
 LOCAL_FILE = os.path.join(CONFIG_DIR, 'local.txt')

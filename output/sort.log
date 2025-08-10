@@ -1,1 +1,715 @@
-
+测速日志 2025-08-10 10:14:10
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv5hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv5hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b4350f0>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv4hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b434e90>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv10hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv10hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv6hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b547bf0>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv1hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b67b0e0>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv9hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv8hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b4e7020>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv3hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b5bc550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv7hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b4e6ad0>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:16] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv2hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b653610>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv14hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv14hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv11hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv11hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596450>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv12hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv12hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cctv13hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597450>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cgtnhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cgtnhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/btv1hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/btv2hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/btv2hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/btv4hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/btv4hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/btv9hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/btv9hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:19] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/btv6hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/btv6hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/zjhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/zjhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595350>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/hunanhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/btv11hd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/btv11hd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/dfhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/dfhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/lnhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/lnhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/szhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/szhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/hljhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/hljhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/gdhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/gdhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/jshd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/jshd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:22] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/ahhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/ahhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595f50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/hbhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/hbhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1350>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/cqhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/cqhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/sdhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/sdhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/tjhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/tjhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/schd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/schd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/gedocu.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/gedocu.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/docuchina.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/docuchina.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/hebhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/hebhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/dnhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/dnhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:25] ❌ 测速失败: http://iptv.huuc.edu.cn/hls/jxhd.m3u8
+   错误: HTTPConnectionPool(host='iptv.huuc.edu.cn', port=80): Max retries exceeded with url: /hls/jxhd.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: iptv.huuc.edu.cn
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2321general.m3u8?txSecret=d9d0fd7a252ef56b515c46a2e21830f4&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 1.94s
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2349general.m3u8?txSecret=e44477052aba305cadeea45aaf1c674a&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 1.97s
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2316general.m3u8?txSecret=b4373417a82ed64e52b0982a66da8df2&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 1.99s
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2358general.m3u8?txSecret=98390a77c143a68f0fd64bfe6e181dcb&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 1.99s
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=a2c948908728a0733cecbe1fadea23dc&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 2.00s
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2331general.m3u8?txSecret=4d7342ca5cd74480526ab6d292247aff&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 2.02s
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=4971666599ef9411629213c9a300bf66&txTime=771EF880
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 2.02s
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2319general.m3u8?txSecret=c7b5c515d2bb6df442492d54955329a3&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 2.04s
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2317general.m3u8?txSecret=112b2c4c872de52b0f37aff6ead63ef0&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 2.04s
+[2025-08-10 10:14:27] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=4d368a175afa19737a9f5be10af24fe2&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 2.09s
+[2025-08-10 10:14:27] ✅ 测速成功: https://0472.org/hls/cgtn.m3u8
+   速度: 125.98KB/s | 数据量: 0.1KB | 总耗时: 0.29s
+[2025-08-10 10:14:27] ✅ 测速成功: https://0472.org/hls/cgtnf.m3u8
+   速度: 183.59KB/s | 数据量: 0.2KB | 总耗时: 0.28s
+[2025-08-10 10:14:27] ✅ 测速成功: https://0472.org/hls/cgtnd.m3u8
+   速度: 125.98KB/s | 数据量: 0.1KB | 总耗时: 0.31s
+[2025-08-10 10:14:27] ✅ 测速成功: https://0472.org/hls/cgtnx.m3u8
+   速度: 183.59KB/s | 数据量: 0.2KB | 总耗时: 0.27s
+[2025-08-10 10:14:27] ✅ 测速成功: https://0472.org/hls/cgtne.m3u8
+   速度: 182.62KB/s | 数据量: 0.2KB | 总耗时: 0.29s
+[2025-08-10 10:14:27] ✅ 测速成功: https://0472.org/hls/cgtna.m3u8
+   速度: 182.62KB/s | 数据量: 0.2KB | 总耗时: 0.28s
+[2025-08-10 10:14:28] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2351general.m3u8?txSecret=8857087aeec2cec44d178a18550fdb8a&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 0.87s
+[2025-08-10 10:14:28] ✅ 测速成功: https://stream1.freetv.fun/su-zhou-wen-hua-sheng-huo-2.m3u8
+   速度: 114.26KB/s | 数据量: 0.1KB | 总耗时: 0.62s
+[2025-08-10 10:14:28] ❌ 测速失败: http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0811&tk=e503191f8e20
+   错误: HTTPConnectionPool(host='kkk.jjjj.jiduo.me', port=80): Max retries exceeded with url: /api.php?n=tttt&id=0811&tk=e503191f8e20 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff58b596a50>: Failed to resolve 'kkk.jjjj.jiduo.me' ([Errno -2] Name or service not known)")) | 域名: kkk.jjjj.jiduo.me
+[2025-08-10 10:14:28] ❌ 测速失败: http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7321&tk=b53028476470
+   错误: HTTPConnectionPool(host='kkk.jjjj.jiduo.me', port=80): Max retries exceeded with url: /api.php?n=tttt&id=7321&tk=b53028476470 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff58b595150>: Failed to resolve 'kkk.jjjj.jiduo.me' ([Errno -2] Name or service not known)")) | 域名: kkk.jjjj.jiduo.me
+[2025-08-10 10:14:28] ✅ 测速成功: https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
+   速度: 286.13KB/s | 数据量: 0.3KB | 总耗时: 0.91s
+[2025-08-10 10:14:28] ✅ 测速成功: https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
+   速度: 286.13KB/s | 数据量: 0.3KB | 总耗时: 0.73s
+[2025-08-10 10:14:28] ✅ 测速成功: https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
+   速度: 286.13KB/s | 数据量: 0.3KB | 总耗时: 0.20s
+[2025-08-10 10:14:28] ✅ 测速成功: http://106.53.99.30/公众号【榴芒电视】/proxy/migu1.php?id=szxwzh
+   速度: 399.41KB/s | 数据量: 0.4KB | 总耗时: 0.44s
+[2025-08-10 10:14:28] ✅ 测速成功: https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
+   速度: 286.13KB/s | 数据量: 0.3KB | 总耗时: 0.42s
+[2025-08-10 10:14:28] ✅ 测速成功: https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
+   速度: 286.13KB/s | 数据量: 0.3KB | 总耗时: 1.13s
+[2025-08-10 10:14:29] ✅ 测速成功: https://live-auth.51kandianshi.com/szgd/csztv4.m3u8
+   速度: 286.13KB/s | 数据量: 0.3KB | 总耗时: 1.19s
+[2025-08-10 10:14:29] ✅ 测速成功: https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
+   速度: 286.13KB/s | 数据量: 0.3KB | 总耗时: 1.23s
+[2025-08-10 10:14:29] ✅ 测速成功: https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
+   速度: 286.13KB/s | 数据量: 0.3KB | 总耗时: 1.22s
+[2025-08-10 10:14:29] ✅ 测速成功: https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-13.m3u8
+   速度: 2708.01KB/s | 数据量: 2.7KB | 总耗时: 0.58s
+[2025-08-10 10:14:29] ✅ 测速成功: https://stream1.freetv.fun/su-zhou-sheng-huo-zi-xun-1.m3u8
+   速度: 2708.01KB/s | 数据量: 2.7KB | 总耗时: 0.56s
+[2025-08-10 10:14:29] ✅ 测速成功: https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
+   速度: 286.13KB/s | 数据量: 0.3KB | 总耗时: 0.64s
+[2025-08-10 10:14:29] ✅ 测速成功: https://stream1.freetv.fun/su-zhou-she-hui-jing-ji-2.m3u8
+   速度: 114.26KB/s | 数据量: 0.1KB | 总耗时: 0.56s
+[2025-08-10 10:14:31] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2354general.m3u8?txSecret=cf5f71d0000862b18f5813607b3dfd5b&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 3.93s
+[2025-08-10 10:14:31] ✅ 测速成功: https://livestream-bt.nmtv.cn/nmtv/2348general.m3u8?txSecret=6a4ddce077e41b976fe33619fbef2b30&txTime=771E8800
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 3.97s
+[2025-08-10 10:14:35] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227642/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227642/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:35] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228502/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228502/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594f50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:35] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228176/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228176/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:35] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228732/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228732/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:35] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227543/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227543/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:35] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228499/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228499/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:35] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228516/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228516/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597750>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:35] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227549/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227549/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597450>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:37] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227614/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227614/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:37] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228578/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228578/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:41] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227620/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227620/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:41] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227693/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227693/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595350>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:41] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228324/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228324/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:41] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227720/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227720/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596750>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:41] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227637/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227637/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:41] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227592/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227592/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:41] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228622/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228622/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:41] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228314/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228314/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:43] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228472/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228472/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1350>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:43] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228165/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228671/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228671/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595350>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228659/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228659/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0750>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228665/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228665/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228662/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228662/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228668/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228668/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228138/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228138/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228680/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228680/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228674/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228674/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:48] ✅ 测速成功: http://itv.uat.news/TVOD/7114647837765104058/hnbblive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.74s
+[2025-08-10 10:14:48] ✅ 测速成功: http://itv.uat.news/TVOD/7745129417417101820/hnbblive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.74s
+[2025-08-10 10:14:48] ✅ 测速成功: http://itv.uat.news/TVOD/5000000002000002652/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.76s
+[2025-08-10 10:14:48] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031126/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.76s
+[2025-08-10 10:14:49] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228683/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228683/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:49] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228677/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228677/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595f50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228689/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228689/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228686/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228686/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228692/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228692/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227670/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227670/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227511/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227511/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227571/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227571/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228130/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228130/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227508/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227508/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:55] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228171/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228171/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:14:55] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227488/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227488/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:00] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227558/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227558/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:00] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227517/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227517/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596450>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:00] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227476/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227476/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:00] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228183/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228183/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:00] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228290/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228290/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597750>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:00] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227552/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227552/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597450>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:00] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228109/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228109/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:00] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228106/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228106/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:02] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228221/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228221/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:02] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227491/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227491/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:06] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228139/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228139/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:06] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227482/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227482/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:06] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227555/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227555/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:06] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227479/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227479/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:07] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228166/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228166/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:07] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228136/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228136/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:07] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227485/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227485/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:07] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228133/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228133/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:08] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227554/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227554/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:08] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228626/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228626/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:10] ✅ 测速成功: http://php.jdshipin.com:8880/xztv.php?id=ws
+   速度: 477.54KB/s | 数据量: 0.5KB | 总耗时: 4.62s
+[2025-08-10 10:15:12] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228734/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228734/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:12] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227514/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227514/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:12] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228743/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228743/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1750>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:13] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228731/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228731/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:13] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228728/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228728/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:13] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228613/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228613/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:13] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228746/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228746/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:14] ❌ 测速失败: http://ott.mobaibox.com/PLTV/4/224/3221227733/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/4/224/3221227733/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:14] ❌ 测速失败: http://ott.mobaibox.com/PLTV/4/224/3221227194/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/4/224/3221227194/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:17] ❌ 测速失败: http://ott.mobaibox.com/PLTV/4/224/3221227719/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/4/224/3221227719/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:18] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227213/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:18] ❌ 测速失败: http://ott.mobaibox.com/PLTV/4/224/3221227178/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/4/224/3221227178/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:18] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227722/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227722/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:19] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228103/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228103/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:19] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227899/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227899/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:19] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227955/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227955/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:19] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227902/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227902/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:20] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227905/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227905/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1350>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:20] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228462/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228462/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:23] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228448/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228448/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0f50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:24] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228246/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228246/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:24] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228451/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228451/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:24] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228323/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228323/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:25] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227325/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227325/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:25] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228208/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228208/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:25] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228209/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228209/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:25] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228212/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228212/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:26] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228100/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228100/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:26] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221225945/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221225945/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:29] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221225947/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221225947/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:30] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221225949/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221225949/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:30] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221225951/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221225951/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:30] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228834/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228834/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:31] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228840/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228840/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:31] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228837/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228837/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:31] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227758/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227758/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:31] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227819/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227819/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:31] ✅ 测速成功: http://itv.uat.news/TVOD/5000000010000027146/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.23s
+[2025-08-10 10:15:31] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031110/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:31] ✅ 测速成功: http://itv.uat.news/TVOD/7851974109718180595/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:31] ✅ 测速成功: http://itv.uat.news/TVOD/5000000010000032212/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.45s
+[2025-08-10 10:15:31] ✅ 测速成功: http://itv.uat.news/TVOD/5000000010000017540/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/5000000010000018926/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031111/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/5000000007000010001/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031123/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.46s
+[2025-08-10 10:15:32] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228435/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228435/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:32] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228433/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228433/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/5000000007000010003/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031207/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031113/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031112/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.45s
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/9001547084732463424/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:32] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031114/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:33] ✅ 测速成功: http://itv.uat.news/TVOD/5000000010000026105/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:33] ✅ 测速成功: http://itv.uat.news/TVOD/5000000002000019634/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.45s
+[2025-08-10 10:15:33] ✅ 测速成功: http://itv.uat.news/TVOD/5000000002000029972/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:35] ✅ 测速成功: http://zhfivel02.cztv.com/channel07/1080p.m3u8?auth_key=2524708799-0-0-4af48ba83e791a300595dd0b2bb30e6e
+   速度: 142.58KB/s | 数据量: 0.1KB | 总耗时: 2.23s
+[2025-08-10 10:15:35] ✅ 测速成功: http://zhfivel02.cztv.com/channel04/1080p.m3u8?auth_key=2524708799-0-0-514823d0816d4af94a9f32bd7614ed67
+   速度: 142.58KB/s | 数据量: 0.1KB | 总耗时: 2.27s
+[2025-08-10 10:15:35] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228436/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228436/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:35] ✅ 测速成功: http://zhfivel02.cztv.com/channel06/1080p.m3u8?auth_key=2524708799-0-0-59c4fe94512c59a90316fbf17ae2fbef
+   速度: 142.58KB/s | 数据量: 0.1KB | 总耗时: 2.70s
+[2025-08-10 10:15:35] ✅ 测速成功: http://zhfivel02.cztv.com/channel02/1080p.m3u8?auth_key=2524708799-0-0-2f7bb420bfd1d218b9c7b07c0ac1ba2f
+   速度: 142.58KB/s | 数据量: 0.1KB | 总耗时: 2.94s
+[2025-08-10 10:15:35] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031203/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.46s
+[2025-08-10 10:15:35] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031206/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.23s
+[2025-08-10 10:15:36] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000031209/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:36] ✅ 测速成功: http://zhfivel02.cztv.com/channel10/1080p.m3u8?auth_key=2524708799-0-0-646cad31c1d94b002a325cd75475d30f
+   速度: 142.58KB/s | 数据量: 0.1KB | 总耗时: 0.95s
+[2025-08-10 10:15:36] ✅ 测速成功: http://zhfivel02.cztv.com/channel12/1080p.m3u8?auth_key=2524708799-0-0-19b0d66dea45971ba0087cbe8392e2d4
+   速度: 142.58KB/s | 数据量: 0.1KB | 总耗时: 0.94s
+[2025-08-10 10:15:36] ✅ 测速成功: http://itv.uat.news/TVOD/5000000006000040024/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:36] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221226944/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221226944/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:36] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221226939/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221226939/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:36] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227699/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227699/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:37] ✅ 测速成功: http://zhfivel02.cztv.com/channel03/1080p.m3u8?auth_key=2524708799-0-0-76c0751e0f656453baf39803124fc08a
+   速度: 142.58KB/s | 数据量: 0.1KB | 总耗时: 4.95s
+[2025-08-10 10:15:38] ✅ 测速成功: http://zhfivel02.cztv.com/channel08/1080p.m3u8?auth_key=2524708799-0-0-cf6f7ad5658d8f2fe423ac2b0d502083
+   速度: 142.58KB/s | 数据量: 0.1KB | 总耗时: 4.92s
+[2025-08-10 10:15:38] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=gzngds
+   速度: 300.78KB/s | 数据量: 0.3KB | 总耗时: 2.77s
+[2025-08-10 10:15:41] ❌ 测速失败: http://php.jdshipin.com/TVOD/hljyd.php?id=3221226298
+   错误: HTTPConnectionPool(host='cdn.jdshipin.com', port=8880): Read timed out. (read timeout=5) | 域名: php.jdshipin.com
+[2025-08-10 10:15:41] ❌ 测速失败: http://php.jdshipin.com/TVOD/hljyd.php?id=3221226239
+   错误: HTTPConnectionPool(host='cdn.jdshipin.com', port=8880): Read timed out. (read timeout=5) | 域名: php.jdshipin.com
+[2025-08-10 10:15:41] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+   速度: 274.41KB/s | 数据量: 0.3KB | 总耗时: 5.51s
+[2025-08-10 10:15:41] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
+   速度: 274.41KB/s | 数据量: 0.3KB | 总耗时: 5.72s
+[2025-08-10 10:15:41] ❌ 测速失败: http://php.jdshipin.com/TVOD/hljyd.php?id=3221226242
+   错误: HTTPConnectionPool(host='cdn.jdshipin.com', port=8880): Read timed out. (read timeout=5) | 域名: php.jdshipin.com
+[2025-08-10 10:15:41] ❌ 测速失败: http://php.jdshipin.com/TVOD/hljyd.php?id=3221226330
+   错误: HTTPConnectionPool(host='cdn.jdshipin.com', port=8880): Read timed out. (read timeout=5) | 域名: php.jdshipin.com
+[2025-08-10 10:15:41] ❌ 测速失败: http://php.jdshipin.com/TVOD/hljyd.php?id=3221226301
+   错误: HTTPConnectionPool(host='cdn.jdshipin.com', port=8880): Read timed out. (read timeout=5) | 域名: php.jdshipin.com
+[2025-08-10 10:15:42] ❌ 测速失败: http://php.jdshipin.com/TVOD/hljyd.php?id=3221226304
+   错误: HTTPConnectionPool(host='cdn.jdshipin.com', port=8880): Read timed out. (read timeout=5) | 域名: php.jdshipin.com
+[2025-08-10 10:15:43] ❌ 测速失败: http://php.jdshipin.com/TVOD/hljyd.php?id=3221226434
+   错误: HTTPConnectionPool(host='cdn.jdshipin.com', port=8880): Read timed out. (read timeout=5) | 域名: php.jdshipin.com
+[2025-08-10 10:15:45] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227475/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227475/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227512/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227512/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227527/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227527/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227530/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227530/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:47] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227533/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227533/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594f50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:48] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227536/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227536/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:48] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227539/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227539/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:48] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227541/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227541/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:48] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227542/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227542/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596050>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:49] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227544/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227544/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1650>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:51] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227547/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227547/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e2150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:53] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227548/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227548/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e2250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:53] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227588/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227588/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:53] ✅ 测速成功: http://itv.uat.news/TVOD/1000000004000019008/ystenlive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:53] ✅ 测速成功: http://itv.uat.news/TVOD/1000000005000266012/ystenlive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:53] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227600/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227600/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:53] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227594/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227594/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:53] ✅ 测速成功: http://itv.uat.news/TVOD/2000000003000000051/hnbblive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:53] ✅ 测速成功: http://itv.uat.news/TVOD/1000000004000023658/ystenlive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/1000000001000012884/ystenlive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/1000000001000009601/ystenlive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227603/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227603/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595f50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227606/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227606/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:54] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227612/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227612/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/1000000001000008139/ystenlive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/1000000001000006197/ystenlive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/1000000006000032327/ystenlive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.23s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288005/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.21s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288010/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288013/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.23s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288009/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.23s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288008/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288002/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288012/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288004/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288001/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288003/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288006/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.42s
+[2025-08-10 10:15:54] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288011/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.47s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/5000000011000288007/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.46s
+[2025-08-10 10:15:55] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227615/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227615/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/5000000001000001116/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/5000000001000004876/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000070630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000280630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000040630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.21s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000020630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000150630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:55] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227618/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227618/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000160630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000010630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000250630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000270630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000180630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000240630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000290630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.45s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000220630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000050630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:55] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000030630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:56] ✅ 测速成功: http://itv.uat.news/TVOD/2000000004000000008/hnbblive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.42s
+[2025-08-10 10:15:56] ✅ 测速成功: http://itv.uat.news/TVOD/2000000004000000011/hnbblive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:56] ✅ 测速成功: http://itv.uat.news/TVOD/2000000004000000010/hnbblive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.44s
+[2025-08-10 10:15:56] ✅ 测速成功: http://itv.uat.news/TVOD/2000000004000000009/hnbblive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.45s
+[2025-08-10 10:15:56] ✅ 测速成功: http://itv.uat.news/TVOD/3000000001000005308/FifastbLive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.46s
+[2025-08-10 10:15:56] ✅ 测速成功: http://itv.uat.news/TVOD/3000000001000005969/FifastbLive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.43s
+[2025-08-10 10:15:57] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228430/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228430/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596450>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:15:57] ✅ 测速成功: http://itv.uat.news/TVOD/2000000004000000014/hnbblive/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.46s
+[2025-08-10 10:16:00] ❌ 测速失败: http://ott.mobaibox.com/PLTV/4/224/3221225539/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/4/224/3221225539/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:01] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228444/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228444/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595f50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:01] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228794/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228794/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596c50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:02] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228682/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228682/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:02] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228679/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228679/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b594550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:02] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228729/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228729/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:02] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228231/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228231/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:02] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227506/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227506/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:02] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228141/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228141/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597750>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:03] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228454/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228454/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595850>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:06] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228466/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228466/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:07] ❌ 测速失败: http://ott.mobaibox.com/PLTV/4/224/3221228562/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/4/224/3221228562/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:07] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228591/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228591/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:08] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228592/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228592/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595b50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:08] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228641/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228641/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596950>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:08] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228644/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228644/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:08] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228706/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228706/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:08] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228740/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228740/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e2450>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:08] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221227520/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221227520/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1150>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:09] ✅ 测速成功: http://php.jdshipin.com:8880/1905.php?id=1905dy
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 0.84s
+[2025-08-10 10:16:09] ✅ 测速成功: http://php.jdshipin.com:8880/1905.php?id=1905dy2
+   速度: 0.00KB/s | 数据量: 0.0KB | 总耗时: 0.77s
+[2025-08-10 10:16:09] ✅ 测速成功: http://itv.uat.news/TVOD/6000000006000320630/wasusyt/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:16:09] ✅ 测速成功: http://itv.uat.news/TVOD/5000000005000031974/bestzb/index.m3u8
+   速度: 146.48KB/s | 数据量: 0.1KB | 总耗时: 0.22s
+[2025-08-10 10:16:09] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
+   速度: 287.11KB/s | 数据量: 0.3KB | 总耗时: 1.21s
+[2025-08-10 10:16:09] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221225555/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221225555/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0d50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:10] ✅ 测速成功: https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+   速度: 1722.66KB/s | 数据量: 1.7KB | 总耗时: 0.16s
+[2025-08-10 10:16:10] ✅ 测速成功: https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+   速度: 526.37KB/s | 数据量: 0.5KB | 总耗时: 0.22s
+[2025-08-10 10:16:10] ✅ 测速成功: https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
+   速度: 474.61KB/s | 数据量: 0.5KB | 总耗时: 0.41s
+[2025-08-10 10:16:11] ✅ 测速成功: https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+   速度: 270.51KB/s | 数据量: 0.3KB | 总耗时: 0.62s
+[2025-08-10 10:16:11] ❌ 测速失败: https://d2dw21aq0j0l5c.cloudfront.net/playlist.m3u8
+   错误: HTTPSConnectionPool(host='d2dw21aq0j0l5c.cloudfront.net', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff58b5bd1d0>: Failed to resolve 'd2dw21aq0j0l5c.cloudfront.net' ([Errno -5] No address associated with hostname)")) | 域名: d2dw21aq0j0l5c.cloudfront.net
+[2025-08-10 10:16:11] ✅ 测速成功: http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+   速度: 1452.15KB/s | 数据量: 1.5KB | 总耗时: 0.19s
+[2025-08-10 10:16:12] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228559/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228559/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e0250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:12] ❌ 测速失败: http://58.19.38.162:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+   错误: HTTPConnectionPool(host='58.19.38.162', port=9901): Max retries exceeded with url: /tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff58b594950>, 'Connection to 58.19.38.162 timed out. (connect timeout=3.05)')) | 域名: 58.19.38.162
+[2025-08-10 10:16:12] ❌ 测速失败: http://58.19.38.162:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+   错误: HTTPConnectionPool(host='58.19.38.162', port=9901): Max retries exceeded with url: /tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff58b595e50>, 'Connection to 58.19.38.162 timed out. (connect timeout=3.05)')) | 域名: 58.19.38.162
+[2025-08-10 10:16:12] ❌ 测速失败: http://58.19.38.162:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+   错误: HTTPConnectionPool(host='58.19.38.162', port=9901): Max retries exceeded with url: /tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff58b594550>, 'Connection to 58.19.38.162 timed out. (connect timeout=3.05)')) | 域名: 58.19.38.162
+[2025-08-10 10:16:13] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=fct4
+   速度: 101.56KB/s | 数据量: 0.1KB | 总耗时: 0.41s
+[2025-08-10 10:16:14] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228579/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228579/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e2350>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:14] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228603/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228603/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e1550>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:14] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=j2
+   速度: 732.42KB/s | 数据量: 0.7KB | 总耗时: 0.30s
+[2025-08-10 10:16:14] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228638/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228638/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff5882e2250>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:14] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228723/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228723/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b596e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:14] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228815/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228815/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597750>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:14] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+   速度: 746.09KB/s | 数据量: 0.7KB | 总耗时: 0.28s
+[2025-08-10 10:16:14] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=j1
+   速度: 302.73KB/s | 数据量: 0.3KB | 总耗时: 0.70s
+[2025-08-10 10:16:14] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
+   速度: 275.39KB/s | 数据量: 0.3KB | 总耗时: 0.36s
+[2025-08-10 10:16:15] ✅ 测速成功: https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
+   速度: 707.03KB/s | 数据量: 0.7KB | 总耗时: 0.30s
+[2025-08-10 10:16:15] ✅ 测速成功: https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+   速度: 546.88KB/s | 数据量: 0.5KB | 总耗时: 0.23s
+[2025-08-10 10:16:15] ✅ 测速成功: http://live-hls-web-aje.getaj.net/AJE/01.m3u8
+   速度: 369.14KB/s | 数据量: 0.4KB | 总耗时: 0.11s
+[2025-08-10 10:16:15] ✅ 测速成功: http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31
+   速度: 299.80KB/s | 数据量: 0.3KB | 总耗时: 1.28s
+[2025-08-10 10:16:16] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=asam
+   速度: 1.62KB/s | 数据量: 0.3KB | 总耗时: 1.45s
+[2025-08-10 10:16:16] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=as
+   速度: 1.60KB/s | 数据量: 0.3KB | 总耗时: 1.34s
+[2025-08-10 10:16:16] ✅ 测速成功: https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
+   速度: 1055.66KB/s | 数据量: 1.1KB | 总耗时: 0.68s
+[2025-08-10 10:16:16] ✅ 测速成功: http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
+   速度: 1.63KB/s | 数据量: 0.3KB | 总耗时: 1.67s
+[2025-08-10 10:16:16] ✅ 测速成功: https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
+   速度: 664.06KB/s | 数据量: 0.7KB | 总耗时: 0.07s
+[2025-08-10 10:16:16] ✅ 测速成功: https://dikcfc9915kp8.cloudfront.net/hls/1080p/playlist.m3u8
+   速度: 495.12KB/s | 数据量: 0.5KB | 总耗时: 0.45s
+[2025-08-10 10:16:16] ✅ 测速成功: http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+   速度: 802.73KB/s | 数据量: 0.8KB | 总耗时: 0.07s
+[2025-08-10 10:16:16] ✅ 测速成功: https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+   速度: 443.36KB/s | 数据量: 0.4KB | 总耗时: 0.31s
+[2025-08-10 10:16:16] ✅ 测速成功: https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8
+   速度: 525.39KB/s | 数据量: 0.5KB | 总耗时: 0.51s
+[2025-08-10 10:16:16] ✅ 测速成功: http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+   速度: 357.42KB/s | 数据量: 0.4KB | 总耗时: 0.74s
+[2025-08-10 10:16:16] ✅ 测速成功: https://d3olsdkvjaij5t.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xr45ydzp0qwbr-prod/Channel_MBC_5.m3u8
+   速度: 1032.23KB/s | 数据量: 1.0KB | 总耗时: 0.59s
+[2025-08-10 10:16:17] ✅ 测速成功: https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+   速度: 31146.39KB/s | 数据量: 464.1KB | 总耗时: 0.85s
+[2025-08-10 10:16:17] ✅ 测速成功: https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
+   速度: 27793.14KB/s | 数据量: 464.1KB | 总耗时: 1.14s
+[2025-08-10 10:16:17] ✅ 测速成功: http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
+   速度: 732.42KB/s | 数据量: 0.7KB | 总耗时: 4.84s
+[2025-08-10 10:16:17] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228530/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228530/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595f50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:18] ✅ 测速成功: http://php.jdshipin.com/smt.php?id=inews_twn
+   速度: 726.56KB/s | 数据量: 0.7KB | 总耗时: 4.85s
+[2025-08-10 10:16:18] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228527/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b597e50>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com
+[2025-08-10 10:16:18] ❌ 测速失败: http://ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
+   错误: HTTPConnectionPool(host='ott.mobaibox.com', port=80): Max retries exceeded with url: /PLTV/3/224/3221228524/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff58b595350>: Failed to establish a new connection: [Errno 101] Network is unreachable')) | 域名: ott.mobaibox.com

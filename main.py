@@ -406,7 +406,7 @@ def finalize_output(organized, group_order, channel_order):
 
                 if selected:
                     #txt_lines.append(f"{channel},{'#'.join(selected)}")
-                    txt_lines.append(f"{channel},{url}")
+                    txt_lines.append(f"{channel},{url}\n{channel},{url}")
                     
                     for url in selected:
                         m3u_lines.append(f'#EXTINF:-1 tvg-name="{channel}"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/{channel}.png" group-title="{group}",{channel}\n{url}')

@@ -405,8 +405,9 @@ def finalize_output(organized, group_order, channel_order):
                 selected = [u[0] for u in urls[:10]]
 
                 if selected:
-                    txt_lines.append(f"{channel},{'#'.join(selected)}")
+                   # txt_lines.append(f"{channel},{'#'.join(selected)}")
                     for url in selected:
+                        txt_lines.append(f"{channel},{url}")
                         m3u_lines.append(f'#EXTINF:-1 tvg-name="{channel}"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/{channel}.png" group-title="{group}",{channel}\n{url}')
 
             # 处理额外频道

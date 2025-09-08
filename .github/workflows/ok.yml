@@ -22,6 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: pip install demjson3 --break-system-packages
+             pip install selenium requests futures eventlet
 
       - name: Run t.py
         run: python ${{ github.workspace }}/ok.py

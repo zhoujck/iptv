@@ -19,9 +19,9 @@ def extract_and_save_spider(json_text):
     spider_url = full_spider.split(";")[0]
     print(f"📥 下载 spider 文件: {spider_url}")
     resp = requests.get(spider_url, timeout=10)
-    with open("fan.txt", "wb") as f:
+    with open("okjar.txt", "wb") as f:
         f.write(resp.content)
-    print("✅ 已保存为 fan.txt")
+    print("✅ 已保存为 okjar.txt")
 
 # 删除不需要的 sites 项 + 替换链接
 def clean_data(raw_text):

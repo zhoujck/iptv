@@ -24,7 +24,7 @@ jobs:
         run: pip install selenium requests futures eventlet
 
       - name: Run t.py
-        run: python ${{ github.workspace }}/t.py
+        run: python ${{ github.workspace }}/ok.py
      
         
       - name: 提交更改

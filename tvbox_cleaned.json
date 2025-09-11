@@ -1,13 +1,13 @@
 {
-  "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/2B77E50_773_opng_20250911191353657newMediaFile.png;md5;9033c86d38799363e0ae915e66e7de55",
+  "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/59F4988_773_okpng_20250911221644286newMediaFile.png;md5;d07149d7d9bb635f736eb1c617a506c5",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314090387/ol.txt",
   "sites": [
     {"key": "配置中心","name": "👨‍🍳‍配置┃中心","type": 3,"api": "csp_ConfigGuard","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.43}},
     {"key": "本地播放","name": "🐼本地┃播放","type": 3,"api": "csp_LocalGuard","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "list"},"timeout": 5},
+    {"key": "二小弹幕","name": "🦢二小┃4K弹幕","type": 3,"api": "csp_ErXiaoGuard","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 25},
     {"key": "双星","name": "🤩双星┃4K弹幕","type": 3,"api": "csp_Star2Guard","searchable": 1,"filterable": 1,"changeable": 0,"style": {"type": "list"},"ext": {"danmu": true},"timeout": 25},
     {"key": "玩偶弹幕版","name": "👽玩偶┃4K弹幕","type": 3,"api": "csp_WoggGuard","searchable": 1,"filterable": 1,"changeable": 1,"ext": {"danmu": true},"timeout": 30},
-    {"key": "二小弹幕","name": "🦢二小┃4K弹幕","type": 3,"api": "csp_ErXiaoGuard","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 25},
     {"key": "立播弹幕版","name": "🐰立播┃4K弹幕","type": 3,"api": "csp_LibvioGuard","searchable": 1,"filterable": 1,"changeable": 1,"ext": {"site": "https://libvio.link","danmu": true},"timeout": 30},
     {"key": "蜡笔弹幕","name": "👠蜡笔┃4K弹幕","type": 3,"api": "csp_LabiGuard","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 25},
     {"key": "木偶弹幕","name": "🪵木偶┃4K弹幕","type": 3,"api": "csp_MuouGuard","quickSearch": 1,"changeable": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 25},

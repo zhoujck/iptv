@@ -66,7 +66,7 @@ def save_json(data, filename="box_cleaned.json"):
 if __name__ == "__main__":
     try:
         raw_text = fetch_raw_json()
-        extract_and_save_spider(raw_text)
+        #extract_and_save_spider(raw_text)
         data = clean_data(raw_text)
         save_json(data)
     except Exception as e:

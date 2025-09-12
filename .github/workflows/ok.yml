@@ -24,7 +24,7 @@ jobs:
         run: pip install demjson3 requests==2.31.0
 
       - name: Run t.py
-        run: python ${{ github.workspace }}/ok.py
+        run: python ${{ github.workspace }}/tools/jo.py
      
         
       - name: 提交更改

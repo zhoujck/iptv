@@ -24,20 +24,20 @@ def fetch_raw_json():
 #     print("✅ 已保存为 okjar.txt")
 
 # 删除不需要的 sites 项 + 替换链接
-# def clean_data(raw_text):
-#     raw_text = raw_text.replace(
-#         "https://framagit.org/zhoujck/config/-/raw/main",
-#         "./js"
-#     )
-#     data = demjson.decode(raw_text)
+def clean_data(raw_text):
+    raw_text = raw_text.replace(
+        "https://framagit.org/zhoujck/config/-/raw/main",
+        "./js"
+    )
+    data = demjson.decode(raw_text)
 
-#     keywords = [
-#         "豆", "饭太硬", "广告", "PanSso", "YpanSo", "xzso", "米搜", "夸搜", "Aliso", "YiSo","我的"
-#     ]
-#     original_count = len(data.get("sites", []))
-#     data["sites"] = [s for s in data["sites"] if not any(kw in s.get("key", "") or kw in s.get("name", "") for kw in keywords)]
-#     print(f"🧹 清理 {original_count - len(data['sites'])} 条 sites")
-#     return data
+    keywords = [
+        "豆", "饭太硬", "广告", "PanSso", "YpanSo", "xzso", "米搜", "夸搜", "Aliso", "YiSo","我的"
+    ]
+    original_count = len(data.get("sites", []))
+    data["sites"] = [s for s in data["sites"] if not any(kw in s.get("key", "") or kw in s.get("name", "") for kw in keywords)]
+    print(f"🧹 清理 {original_count - len(data['sites'])} 条 sites")
+    return data
 
 # 格式美化保存
 class CompactJSONEncoder(json.JSONEncoder):

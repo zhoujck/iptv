@@ -81,8 +81,8 @@ if __name__ == "__main__":
             print("⚠️ dianshi.json 中未找到 spider 字段")
 
         # 插入 sites
-        cleaned_sites = cleaned.get("sites", [])
-        dianshi["sites"] = insert_sites(dianshi.get("sites", []), cleaned_sites)
+        # cleaned_sites = cleaned.get("sites", [])
+        # dianshi["sites"] = insert_sites(dianshi.get("sites", []), cleaned_sites)
         name, ext = os.path.splitext(dianshi_path)
         output_path = f"{name}_merged{ext}"
 

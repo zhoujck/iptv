@@ -23,17 +23,17 @@ jobs:
       - name: Install dependencies
         run: pip install demjson3 requests==2.31.0
 
-      - name: Run t.py
-        run: python ${{ github.workspace }}/tools/combine.py
-     
+      - name: Run tools
+        run: |
+        cd tools/
+        python ok.py
+        python jo.py
+        python combine.py     
         
       - name: 提交更改
         run: |
-
           git config user.email "zhoujck@live.com"
           git config user.name "zhoujck" 
-
-
           git add .
           if ! git diff-index --quiet HEAD --; then
           git commit -m "更新源 $(date +%Y%m%d%H%M)"

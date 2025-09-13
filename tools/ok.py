@@ -26,8 +26,8 @@ def extract_and_save_spider(json_text):
 # 删除不需要的 sites 项 + 替换链接
 def clean_data(raw_text):
     raw_text = raw_text.replace(
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main",
-        "./FTY"
+        "",
+        "┃弹幕"
     )
     data = demjson.decode(raw_text)
 

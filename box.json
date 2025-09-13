@@ -1,12 +1,13 @@
 {
   "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/IPTV/main/okjar.txt;md5;d07149d7d9bb635f736eb1c617a506c5",
-  "logo": "./pic/app_icon.png",
+  "logo": "https://framagit.org/zhoujck/config/-/raw/main/pic/app_icon.png",
   "lives": [
     {"name": "🍬移动🍬","type": 0,"url": "https://framagit.org/zhoujck/config/-/raw/main/json/移动","playerType": 2,"ua": "okhttp/5.0.0-alpha.14","epg": "https://live.fanmingming.cn/e.xml","logo": "https://live.fanmingming.cn/tv/{name}.png"},
     {"name": "🍬电信🍬","type": 0,"url": "https://framagit.org/zhoujck/config/-/raw/main/json/电信","playerType": 2,"ua": "okhttp/5.0.0-alpha.14","epg": "https://live.fanmingming.cn/e.xml","logo": "https://live.fanmingming.cn/tv/{name}.png"},
     {"name": "🍬综合🍬","type": 0,"url": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/IPTV/main/output/ipv4/result.txt","ua": "okhttp/3.15","playerType": 1,"epg": "https://live.fanmingming.cn/e.xml","logo": "https://live.fanmingming.cn/tv/{name}.png"}
   ],
   "sites": [
+    {"key": "豆豆","name": "🍬糖果影视🍬","type": 3,"api": "csp_DoubanGuard","searchable": 0,"quickSearch": 0,"filterable": 0},
     {"key": "config","name": "配置中心","type": 3,"api": "csp_ConfigGuard"},
     {"key": "bili影视","name": "🅱哔站影视","type": 3,"api": "https://framagit.org/zhoujck/config/-/raw/main/js/lib/drpy2.min.js","searchable": 1,"ext": "https://framagit.org/zhoujck/config/-/raw/main/js/doc.js"},
     {"key": "310直播","name": "球赛","type": 3,"api": "https://framagit.org/zhoujck/config/-/raw/main/js/lib/drpy2.min.js","ext": "https://framagit.org/zhoujck/config/-/raw/main/js/310直播.js"},

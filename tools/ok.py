@@ -32,7 +32,7 @@ def clean_data(raw_text):
     data = demjson.decode(raw_text)
 
     keywords = [
-        "豆", "饭太硬", "广告", "PanSso", "YpanSo", "xzso", "米搜", "夸搜", "Aliso", "YiSo","我的"
+        "豆", "4K弹幕", "4K", "我的", "搜索", "磁力", "哔哩"
     ]
     original_count = len(data.get("sites", []))
     data["sites"] = [s for s in data["sites"] if not any(kw in s.get("key", "") or kw in s.get("name", "") for kw in keywords)]

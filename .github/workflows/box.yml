@@ -28,10 +28,9 @@ jobs:
           python ok.py
           python jo.py
           python combine.py
-          #\cp -pdr dianshi_merged_with_app_sites.json ../dianshi.json
-          #\cp -pdr jsm_merged_with_app_sites.json ../jsm.json
+          \cp -pdr jo_cleaned_merged.json ../box.json
           \cp -pdr okjar.txt ../okjar.txt
-          rm -rf ok_cleaned.json jo_cleaned.json okjar.txt
+          rm -rf ok_cleaned.json jo_cleaned.json jo_cleaned_merged.json okjar.txt
           cd ../
         shell: bash
         

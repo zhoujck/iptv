@@ -35,7 +35,7 @@ jobs:
           #pwd 
           #cd tools/
           pip install selenium requests futures eventlet
-          python iptv.py
+          python ./tools/iptv.py
           \cp -pdr ./output/ipv4/result.txt ../live.txt
          # cd ../
        # shell: bash

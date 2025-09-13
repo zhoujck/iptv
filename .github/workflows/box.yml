@@ -30,7 +30,7 @@ jobs:
           python combine.py
           \cp -pdr jo_cleaned_merged.json ../box.json
           \cp -pdr okjar.txt ../okjar.txt
-          rm -rf ok_cleaned.json jo_cleaned.json jo_cleaned_merged.json okjar.txt
+          rm -rf jo_cleaned.json jo_cleaned_merged.json okjar.txt
           cd ../
         shell: bash
         

@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/IPTV/main/okjar.txt",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/zhoujck/IPTV/main/okjar.txt;md5;d07149d7d9bb635f736eb1c617a506c5",
   "logo": "./pic/app_icon.png",
   "lives": [
     {"name": "🍬移动🍬","type": 0,"url": "./js/json/移动","playerType": 2,"ua": "okhttp/5.0.0-alpha.14","epg": "https://live.fanmingming.cn/e.xml","logo": "https://live.fanmingming.cn/tv/{name}.png"},
@@ -40,27 +40,7 @@
     {"name": "解析7","type": 0,"url": "https://jx.quankan.app/?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
     {"name": "解析8","type": 0,"url": "https://jx.aidouer.net/?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer": "https://jiejie.uk/"}}}
   ],
-  "flags": [
-  "youku",
-  "qq",
-  "iqiyi",
-  "qiyi",
-  "letv",
-  "sohu",
-  "tudou",
-  "pptv",
-  "mgtv",
-  "wasu",
-  "migu",
-  "migo",
-  "alivc",
-  "1905",
-  "douyin",
-  "xigua",
-  "leshi",
-  "bilibili",
-  "renrenmi"
-],
+  "flags": ["youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu", "migu", "migo", "alivc", "1905", "douyin", "xigua", "leshi", "bilibili", "renrenmi"],
   "rules": [
     {"name": "proxy","hosts": ["raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*","*.t4tv.hz.cz",".*ulivetv.*"]},
     {"host": "www.djuu.com","rule": ["mp4.djuu.com","m4a"]},

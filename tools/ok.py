@@ -27,7 +27,7 @@ def extract_and_save_spider(json_text):
 def clean_data(raw_text):
     raw_text = raw_text.replace(
         " ",
-        "┃弹幕"
+        "弹幕"
     )
     data = demjson.decode(raw_text)
 

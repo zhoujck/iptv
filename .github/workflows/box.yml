@@ -28,11 +28,11 @@ jobs:
           python ok.py
           python jo.py
           python combine.py
-          # \cp -pdr dianshi_merged_with_app_sites.json ../dianshi.json
-          # \cp -pdr jsm_merged_with_app_sites.json ../jsm.json
-          # \cp -pdr fan.txt ../jar/fan.txt
-          # rm -rf dianshi_merged_with_app_sites.json jsm_merged_with_app_sites.json dianshi_merged.json jsm_merged.json tvbox_cleaned.json fan.txt
-          # cd ../
+          #\cp -pdr dianshi_merged_with_app_sites.json ../dianshi.json
+          #\cp -pdr jsm_merged_with_app_sites.json ../jsm.json
+          \cp -pdr okjar.txt ../okjar.txt
+          rm -rf ok_cleaned.json ok_cleaned.json okjar.txt
+          cd ../
         shell: bash
         
       - name: 提交更改

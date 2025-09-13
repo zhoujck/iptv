@@ -3,8 +3,6 @@
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314090387/ol.txt",
   "sites": [
-    {"key": "配置中心","name": "👨‍🍳‍配置┃中心","type": 3,"api": "csp_ConfigGuard","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.43}},
-    {"key": "本地播放","name": "🐼本地┃播放","type": 3,"api": "csp_LocalGuard","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "list"},"timeout": 5},
     {"key": "瓜子","name": "🍉瓜子","type": 3,"api": "csp_GuaziGuard","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 10},
     {"key": "热播弹幕版","name": "📺热播","type": 3,"api": "csp_TianTianGuard","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true,"site": 0},"timeout": 10},
     {"key": "文才","name": "🌺文才","type": 3,"api": "csp_JpysGuard","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true},"timeout": 10},

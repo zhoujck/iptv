@@ -1,10 +1,10 @@
 #EXTM3U x-tvg-url="https://gh.catmak.name/https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/epg/epg.gz"
 #EXTINF:-1 tvg-name="CCTV1"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视频道",CCTV1
-http://218.17.33.178:53290/tsfile/live/1001_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-name="CCTV1"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视频道",CCTV1
 http://ott.mobaibox.com/PLTV/3/224/3221228732/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视频道",CCTV1
 http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+#EXTINF:-1 tvg-name="CCTV1"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视频道",CCTV1
+http://218.17.33.178:53290/tsfile/live/1001_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="CCTV1"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视频道",CCTV1
 http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
 #EXTINF:-1 tvg-name="CCTV2"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV2.png" group-title="央视频道",CCTV2
@@ -174,9 +174,9 @@ http://ott.mobaibox.com/PLTV/3/224/3221228686/index.m3u8
 #EXTINF:-1 tvg-name="CCTV风云足球"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV风云足球.png" group-title="央视频道",CCTV风云足球
 http://ott.mobaibox.com/PLTV/3/224/3221228668/index.m3u8
 #EXTINF:-1 tvg-name="CCTV央视台球"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV央视台球.png" group-title="央视频道",CCTV央视台球
-https://epg.pw/stream/25677ac2e8c1f7c3dd6359c43eb5f0f54efb3f5c11f9dda18d01b3e0308ed017.m3u8
-#EXTINF:-1 tvg-name="CCTV央视台球"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV央视台球.png" group-title="央视频道",CCTV央视台球
 http://ott.mobaibox.com/PLTV/3/224/3221228683/index.m3u8
+#EXTINF:-1 tvg-name="CCTV央视台球"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV央视台球.png" group-title="央视频道",CCTV央视台球
+https://epg.pw/stream/25677ac2e8c1f7c3dd6359c43eb5f0f54efb3f5c11f9dda18d01b3e0308ed017.m3u8
 #EXTINF:-1 tvg-name="CCTV女性时尚"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV女性时尚.png" group-title="央视频道",CCTV女性时尚
 http://ott.mobaibox.com/PLTV/3/224/3221228674/index.m3u8
 #EXTINF:-1 tvg-name="CCTV电视指南"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV电视指南.png" group-title="央视频道",CCTV电视指南
@@ -312,7 +312,7 @@ http://iptv.huuc.edu.cn/hls/hebhd.m3u8
 #EXTINF:-1 tvg-name="河南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南卫视.png" group-title="卫视频道",河南卫视
 https://migu.188766.xyz/?migutoken=fd3691f2ef79f90994e699fae44e2e8b&id=%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86&type=yy
 #EXTINF:-1 tvg-name="河南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南卫视.png" group-title="卫视频道",河南卫视
-http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=c6c2ec39b3077bfd425d99746ad1b35f&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=56a2895983f5dbc5492cda8bd7d0766f&wsTime=1757761217
 #EXTINF:-1 tvg-name="河南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南卫视.png" group-title="卫视频道",河南卫视
 http://ott.mobaibox.com/PLTV/3/224/3221228221/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
@@ -378,9 +378,9 @@ http://php.jdshipin.com:8880/xztv.php?id=ws
 #EXTINF:-1 tvg-name="西藏卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/西藏卫视.png" group-title="卫视频道",西藏卫视
 https://my5353.com/oabgW
 #EXTINF:-1 tvg-name="兵团卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/兵团卫视.png" group-title="卫视频道",兵团卫视
-https://my5353.com/7Z1HP
-#EXTINF:-1 tvg-name="兵团卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/兵团卫视.png" group-title="卫视频道",兵团卫视
 http://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
+#EXTINF:-1 tvg-name="兵团卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/兵团卫视.png" group-title="卫视频道",兵团卫视
+https://my5353.com/7Z1HP
 #EXTINF:-1 tvg-name="三沙卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/三沙卫视.png" group-title="卫视频道",三沙卫视
 http://ott.mobaibox.com/PLTV/3/224/3221228626/index.m3u8
 #EXTINF:-1 tvg-name="CHC影迷电影"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CHC影迷电影.png" group-title="数字频道",CHC影迷电影
@@ -568,7 +568,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=gdty
 #EXTINF:-1 tvg-name="广东珠江"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/广东珠江.png" group-title="☘️广东省",广东珠江
 http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
 #EXTINF:-1 tvg-name="梨园频道"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/梨园频道.png" group-title="☘️河南省",梨园频道
-http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=db24870d7a1f6ca24e4e64713e1fb262&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=8353adc9edbf98d2151c3ee2e2006dd9&wsTime=1757761217
 #EXTINF:-1 tvg-name="金鹰纪实"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/金鹰纪实.png" group-title="☘️湖南省",金鹰纪实
 http://itv.uat.news/TVOD/5000000011000031203/bestzb/index.m3u8
 #EXTINF:-1 tvg-name="金鹰纪实"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/金鹰纪实.png" group-title="☘️湖南省",金鹰纪实
@@ -1006,7 +1006,7 @@ http://ott.mobaibox.com/PLTV/3/224/3221228603/index.m3u8
 #EXTINF:-1 tvg-name="全球大片" group-title="其他",全球大片
 http://itv.uat.news/TVOD/5000000011000288009/bestzb/index.m3u8
 #EXTINF:-1 tvg-name="公共频道" group-title="其他",公共频道
-http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=972476889d429dc72a8455d491aab03c&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=4fb7b83afff9bd0731e872c917140056&wsTime=1757761217
 #EXTINF:-1 tvg-name="内蒙古蒙语卫视" group-title="其他",内蒙古蒙语卫视
 http://play1-qk.nmtv.cn/live/1686560387346365.m3u8
 #EXTINF:-1 tvg-name="内蒙古蒙语卫视" group-title="其他",内蒙古蒙语卫视
@@ -1084,7 +1084,7 @@ http://itv.uat.news/TVOD/3000000001000005308/FifastbLive/index.m3u8
 #EXTINF:-1 tvg-name="咪咕视频" group-title="其他",咪咕视频
 http://itv.uat.news/TVOD/3000000001000005969/FifastbLive/index.m3u8
 #EXTINF:-1 tvg-name="国学频道" group-title="其他",国学频道
-rtmp://rtmp.tv.stream3.hndt.com/tv/647f9277018410008cf925e200000000?wsSecret=9a23316ee66e918684e097f&wsSecret=c25019d1461a51d06cd7191d156eb6b2&wsTime=1757750415
+rtmp://rtmp.tv.stream3.hndt.com/tv/647f9277018410008cf925e200000000?wsSecret=9a23316ee66e918684e097f&wsSecret=ebbfce98102032ee82e196520c66f49e&wsTime=1757761217
 #EXTINF:-1 tvg-name="大湾区卫视" group-title="其他",大湾区卫视
 https://migu.188766.xyz/?migutoken=09916660f86a90fc77ff9f27fcc4241f&id=%E5%A4%A7%E6%B9%BE%E5%8C%BA%E5%8D%AB%E8%A7%86&type=yy
 #EXTINF:-1 tvg-name="女神金" group-title="其他",女神金
@@ -1126,7 +1126,7 @@ http://ott.mobaibox.com/PLTV/3/224/3221228323/index.m3u8
 #EXTINF:-1 tvg-name="抖音热歌" group-title="其他",抖音热歌
 http://ott.mobaibox.com/PLTV/3/224/3221228444/index.m3u8
 #EXTINF:-1 tvg-name="文物宝库" group-title="其他",文物宝库
-http://tvcdn.stream3.hndt.com/tv/65b5a69d017e1000aa645bea00000000_transios/playlist.m3u8?wsSecret=fac4f76a20dae0ed274d651c3b20d528&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65b5a69d017e1000aa645bea00000000_transios/playlist.m3u8?wsSecret=4c98100610ef6c827d78a9f080db5a89&wsTime=1757761217
 #EXTINF:-1 tvg-name="斗鱼电影HD7" group-title="其他",斗鱼电影HD7
 http://zzy789.xyz/douyu1.php?id=20415
 #EXTINF:-1 tvg-name="斗鱼电视剧1" group-title="其他",斗鱼电视剧1
@@ -1148,7 +1148,7 @@ http://zzy789.xyz/douyu1.php?id=431460
 #EXTINF:-1 tvg-name="斗鱼音乐MV频道" group-title="其他",斗鱼音乐MV频道
 http://zzy789.xyz/douyu1.php?id=3870925
 #EXTINF:-1 tvg-name="新闻频道" group-title="其他",新闻频道
-http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=4a902ae29f7c66ca626c4e622df4d140&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=21833c9708c1bdd8d9ea60c4960a6c80&wsTime=1757761217
 #EXTINF:-1 tvg-name="星光影院" group-title="其他",星光影院
 http://itv.uat.news/TVOD/5000000011000288013/bestzb/index.m3u8
 #EXTINF:-1 tvg-name="星爷房✔原" group-title="其他",星爷房✔原
@@ -1160,13 +1160,13 @@ http://zzy789.xyz/douyu1.php?id=9403690
 #EXTINF:-1 tvg-name="欢笑剧场4K" group-title="其他",欢笑剧场4K
 http://itv.uat.news/TVOD/5000000007000010001/bestzb/index.m3u8
 #EXTINF:-1 tvg-name="欢腾购物" group-title="其他",欢腾购物
-http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=c5f560352318dd6d4241456f87c133b1&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65ba653b017e1000d4ee41c700000000_transios/playlist.m3u8?wsSecret=d8b5c2805f1a72be5d052f49da5978c8&wsTime=1757761217
 #EXTINF:-1 tvg-name="武搏世界" group-title="其他",武搏世界
 http://ott.mobaibox.com/PLTV/3/224/3221227533/index.m3u8
 #EXTINF:-1 tvg-name="武术频道" group-title="其他",武术频道
-http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=2be2c74f4b43b3d8baf03f4cc3ac52a7&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=77f61865060352067faff22683dcf08e&wsTime=1757761217
 #EXTINF:-1 tvg-name="民生频道" group-title="其他",民生频道
-http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=c4f0ad0130902c9278bda9fd53447855&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=e5aed706031ffc42321f4618dd7d2857&wsTime=1757761217
 #EXTINF:-1 tvg-name="求索纪录" group-title="其他",求索纪录
 http://itv.uat.news/TVOD/2000000004000000010/hnbblive/index.m3u8
 #EXTINF:-1 tvg-name="江苏体育•休闲" group-title="其他",江苏体育•休闲
@@ -1174,9 +1174,9 @@ http://ott.mobaibox.com/PLTV/3/224/3221228746/index.m3u8
 #EXTINF:-1 tvg-name="江苏综艺" group-title="其他",江苏综艺
 http://ott.mobaibox.com/PLTV/3/224/3221228731/index.m3u8
 #EXTINF:-1 tvg-name="河南乡村频道" group-title="其他",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=e0c696e3e2c0342007f1555697367de9&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=46aea15c028349c3fc60e52a6a9f1614&wsTime=1757761217
 #EXTINF:-1 tvg-name="法治频道" group-title="其他",法治频道
-http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=4fd0d1fd81129f672015a57f777f79a3&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=9d853db9d7eab76f69fdadadac38511f&wsTime=1757761217
 #EXTINF:-1 tvg-name="泰州公共频道" group-title="其他",泰州公共频道
 http://ott.mobaibox.com/PLTV/3/224/3221228100/index.m3u8
 #EXTINF:-1 tvg-name="泰州教育频道" group-title="其他",泰州教育频道
@@ -1228,7 +1228,7 @@ http://php.jdshipin.com:8880/1905.php?id=1905dy2
 #EXTINF:-1 tvg-name="电竞天堂" group-title="其他",电竞天堂
 http://itv.uat.news/TVOD/5000000011000288003/bestzb/index.m3u8
 #EXTINF:-1 tvg-name="电视剧频道" group-title="其他",电视剧频道
-http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=0b4752432854c4c711cee7ab265ebfcc&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=7f4e7990508caa242e4d296b709ece82&wsTime=1757761217
 #EXTINF:-1 tvg-name="百变课堂" group-title="其他",百变课堂
 http://itv.uat.news/TVOD/5000000011000288001/bestzb/index.m3u8
 #EXTINF:-1 tvg-name="百姓生活" group-title="其他",百姓生活
@@ -1242,11 +1242,11 @@ http://ott.mobaibox.com/PLTV/3/224/3221228433/index.m3u8
 #EXTINF:-1 tvg-name="看天下精选" group-title="其他",看天下精选
 http://itv.uat.news/TVOD/5000000011000288007/bestzb/index.m3u8
 #EXTINF:-1 tvg-name="睛彩中原" group-title="其他",睛彩中原
-http://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=645c4f55ee16f4539258152be4c15cab&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=cdecd032dfcfc973475597b4ff10d51a&wsTime=1757761217
 #EXTINF:-1 tvg-name="睛彩广场舞" group-title="其他",睛彩广场舞
 http://ott.mobaibox.com/PLTV/3/224/3221228231/index.m3u8
 #EXTINF:-1 tvg-name="移动戏曲频道" group-title="其他",移动戏曲频道
-https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=1d18fda9f43854918dd2fcc598bfcf1d&wsTime=1757750415
+https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=4aa7cb1c127d7fb6f0b49697a8771462&wsTime=1757761217
 #EXTINF:-1 tvg-name="第一院线" group-title="其他",第一院线
 http://ott.mobaibox.com/PLTV/3/224/3221228740/index.m3u8
 #EXTINF:-1 tvg-name="精彩短剧看不停" group-title="其他",精彩短剧看不停
@@ -1268,7 +1268,7 @@ https://livestream-bt.nmtv.cn/nmtv/2315general.m3u8?txSecret=4971666599ef9411629
 #EXTINF:-1 tvg-name="谍战剧场" group-title="其他",谍战剧场
 http://itv.uat.news/TVOD/5000000011000288004/bestzb/index.m3u8
 #EXTINF:-1 tvg-name="象视界" group-title="其他",象视界
-http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=bb2f5425087b92e374312646da3af835&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=fcc902cf039e6520f916937b3b82d55d&wsTime=1757761217
 #EXTINF:-1 tvg-name="贝爷欧美IMAX厅" group-title="其他",贝爷欧美IMAX厅
 http://zzy789.xyz/douyu1.php?id=4332
 #EXTINF:-1 tvg-name="贝爷欧美IMAX厅" group-title="其他",贝爷欧美IMAX厅
@@ -1286,7 +1286,7 @@ http://zzy789.xyz/douyu1.php?id=9817716
 #EXTINF:-1 tvg-name="连云港生活频道" group-title="其他",连云港生活频道
 http://ott.mobaibox.com/PLTV/3/224/3221227819/index.m3u8
 #EXTINF:-1 tvg-name="都市频道" group-title="其他",都市频道
-http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=ea1f04d28fe1448a631553559786616b&wsTime=1757750415
+http://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=bf69cfb39653963f42b98cebef57071c&wsTime=1757761217
 #EXTINF:-1 tvg-name="鄂尔多斯新闻" group-title="其他",鄂尔多斯新闻
 https://livestream-bt.nmtv.cn/nmtv/2349general.m3u8?txSecret=e44477052aba305cadeea45aaf1c674a&txTime=771E8800
 #EXTINF:-1 tvg-name="鄂尔多斯新闻综合" group-title="其他",鄂尔多斯新闻综合

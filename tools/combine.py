@@ -43,24 +43,24 @@ def save_json(data, path):
         json.dump(data, f, indent=2, ensure_ascii=False, cls=CompactJSONEncoder)
     print(f"✅ 已保存：{path}")
 
-# 插入 cleaned_sites 到目标 sites 中的目标条目之上
-def insert_sites(base_sites, cleaned_sites, key_marker="奇优"):
+# 插入 ok_sites 到目标 sites 中的目标条目之上
+def insert_sites(base_sites, ok_sites, key_marker="奇优"):
     for i, item in enumerate(base_sites):
         if item.get("key") == key_marker:
-            return base_sites[:i] + cleaned_sites + base_sites[i:]
+            return base_sites[:i] + ok_sites + base_sites[i:]
     print(f"⚠️ 未找到 key 为 {key_marker} 的插入点，追加到末尾")
     return base_sites + cleaned_sites
 
 if __name__ == "__main__":
     # 默认路径
-    dianshi_path = "box_cleaned.json"
-    cleaned_path = "ok_cleaned.json"
+    box_path = "box_cleaned.json"
+    ok_path = "ok_cleaned.json"
 
     # 覆盖默认路径（如果传了参数）
     if len(sys.argv) > 1:
-        dianshi_path = sys.argv[1]
+        box_path = sys.argv[1]
     if len(sys.argv) > 2:
-        cleaned_path = sys.argv[2]
+        ok_path = sys.argv[2]
 
     try:
         # 获取 fan.txt 的 md5
@@ -68,27 +68,27 @@ if __name__ == "__main__":
         print(f"🔐 okjar.txt 的 MD5: {md5_value}")
 
         # 加载两个 JSON 文件
-        dianshi = load_json(dianshi_path)
-        cleaned = load_json(cleaned_path)
+        box = load_json(box_path)
+        ok = load_json(ok_path)
 
         # 替换 spider md5
-        if "spider" in dianshi:
-            old_spider = dianshi["spider"]
+        if "spider" in box:
+            old_spider = box["spider"]
             new_spider = re.sub(r'md5;[a-f0-9]+', f'md5;{md5_value}', old_spider)
-            dianshi["spider"] = new_spider
+            box["spider"] = new_spider
             print(f"🔄 替换 spider 字段为: {new_spider}")
         else:
-            print("⚠️ dianshi.json 中未找到 spider 字段")
+            print("⚠️ box_cleaned.json 中未找到 spider 字段")
 
         # 插入 sites
-        # cleaned_sites = cleaned.get("sites", [])
-        # dianshi["sites"] = insert_sites(dianshi.get("sites", []), cleaned_sites)
-        name, ext = os.path.splitext(dianshi_path)
+        # ok_sites = ok.get("sites", [])
+        # box["sites"] = insert_sites(box.get("sites", []), ok_sites)
+        name, ext = os.path.splitext(box_path)
         output_path = f"{name}_merged{ext}"
 
-        save_json(dianshi, output_path)
+        save_json(box, output_path)
         # 保存最终合并文件
-        # save_json(dianshi, "dianshi_merged.json")
+        # save_json(box, "box_merged.json")
 
     except Exception as e:
         print(f"❌ 出错: {e}")

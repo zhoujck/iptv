@@ -53,37 +53,37 @@ def insert_sites(base_sites, ok_sites, key_marker="奇优"):
 
 if __name__ == "__main__":
     # 默认路径
-    box_path = "box_cleaned.json"
+    jo_path = "jo_cleaned.json"
     ok_path = "ok_cleaned.json"
 
     # 覆盖默认路径（如果传了参数）
     if len(sys.argv) > 1:
-        box_path = sys.argv[1]
+        jo_path = sys.argv[1]
     if len(sys.argv) > 2:
         ok_path = sys.argv[2]
 
     try:
-        # 获取 fan.txt 的 md5
+        # 获取 okjar.txt 的 md5
         md5_value = get_md5("okjar.txt")
         print(f"🔐 okjar.txt 的 MD5: {md5_value}")
 
         # 加载两个 JSON 文件
-        box = load_json(box_path)
+        jo = load_json(jo_path)
         ok = load_json(ok_path)
 
         # 替换 spider md5
-        if "spider" in box:
-            old_spider = box["spider"]
-            new_spider = re.sub(r'md5;[a-f0-9]+', f'md5;{md5_value}', old_spider)
-            box["spider"] = new_spider
+        if "spider" in jo:
+            old_spider = jo["spider"]
+            new_spider = re.sub(r'txt', f'txt;md5;{md5_value}', old_spider)
+            jo["spider"] = new_spider
             print(f"🔄 替换 spider 字段为: {new_spider}")
         else:
-            print("⚠️ box_cleaned.json 中未找到 spider 字段")
+            print("⚠️ jo_cleaned.json 中未找到 spider 字段")
 
         # 插入 sites
-        # ok_sites = ok.get("sites", [])
-        # box["sites"] = insert_sites(box.get("sites", []), ok_sites)
-        name, ext = os.path.splitext(box_path)
+        #ok_sites = ok.get("sites", [])
+        #jo["sites"] = insert_sites(jo.get("sites", []), ok_sites)
+        name, ext = os.path.splitext(jo_path)
         output_path = f"{name}_merged{ext}"
 
         save_json(box, output_path)

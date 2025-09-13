@@ -30,8 +30,11 @@ jobs:
         shell: bash
 
       - name: move
-        run: | 
-          \cp -pdr ./output/ipv4/result.txt ../live.txt
+        run: |
+          pwd 
+          cd output/
+          \cp ./ipv4/result.txt ../live.txt
+          cd ../
         shell: bash
           
       - name: 提交更改

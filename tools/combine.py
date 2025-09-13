@@ -86,7 +86,7 @@ if __name__ == "__main__":
         name, ext = os.path.splitext(jo_path)
         output_path = f"{name}_merged{ext}"
 
-        save_json(box, output_path)
+        #save_json(box, output_path)
         # 保存最终合并文件
         # save_json(box, "box_merged.json")
 

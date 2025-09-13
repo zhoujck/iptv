@@ -20,18 +20,23 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install dependencies
-        run: pip install demjson3 requests==2.31.0
-
-      - name: Run tools
+      - name: tools
         run: |
-        cd tools/
-        python ok.py
-        python jo.py
-        python combine.py     
+          pwd 
+          cd tools/
+          pip install demjson3 requests==2.31.0
+          python ok.py
+          python jo.py
+          python combine.py
+          # \cp -pdr dianshi_merged_with_app_sites.json ../dianshi.json
+          # \cp -pdr jsm_merged_with_app_sites.json ../jsm.json
+          # \cp -pdr fan.txt ../jar/fan.txt
+          # rm -rf dianshi_merged_with_app_sites.json jsm_merged_with_app_sites.json dianshi_merged.json jsm_merged.json tvbox_cleaned.json fan.txt
+          # cd ../
+        shell: bash
         
       - name: 提交更改
-        run: |
+        run: | 
           git config user.email "zhoujck@live.com"
           git config user.name "zhoujck" 
           git add .

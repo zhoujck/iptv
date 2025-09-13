@@ -26,19 +26,19 @@ jobs:
       - name: Install dependencies
         run: pip install selenium requests futures eventlet
 
-      # - name: Run main.py
-      #   run: python ${{ github.workspace }}/tools/iptv.py
-      #    \cp -pdr ./output/ipv4/result.txt .../live.txt
+      - name: Run main.py
+        run: python ${{ github.workspace }}/tools/iptv.py
+         \cp -pdr ./output/ipv4/result.txt ../live.txt
 
-      - name: tools
-        run: |
-          pwd 
-          cd tools/
-          pip install selenium requests futures eventlet
-          python iptv.py
-          \cp -pdr ./output/ipv4/result.txt .../live.txt
-          cd ../
-        shell: bash
+      # - name: tools
+      #   run: | 
+      #     pwd 
+      #     cd tools/
+      #     pip install selenium requests futures eventlet
+      #     python iptv.py
+      #     \cp -pdr ./output/ipv4/result.txt ../live.txt
+      #     cd ../
+      #   shell: bash
           
       - name: 提交更改
         run: |

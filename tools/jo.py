@@ -25,10 +25,10 @@ def fetch_raw_json():
 
 # 删除不需要的 sites 项 + 替换链接
 def clean_data(raw_text):
-    raw_text = raw_text.replace(
-        "https://framagit.org/zhoujck/config/-/raw/main",
-        "./js"
-    )
+    # raw_text = raw_text.replace(
+    #     "./js",
+    #     "./js"
+    # )
     data = demjson.decode(raw_text)
 
     keywords = [

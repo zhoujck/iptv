@@ -21,7 +21,7 @@
     {"key": "线路7","name": "🐼浪酷","type": 3,"api": "csp_TianTianGuard","ext": {"site": 2},"timeout": 10},
     {"key": "线路8","name": "🐼热播","type": 3,"api": "csp_TianTianGuard","ext": {"site": 0},"timeout": 10},
     {"key": "线路9","name": "🐼天天","type": 3,"api": "csp_TianTianGuard","ext": {"site": 1},"timeout": 10},
-    {"key": "线路10","name": "🐼玩偶","type": 3,"api": "csp_WoggGuard"},
+    {"key": "线路10","name": "🐼至臻","type": 3,"api": "csp_ZhiZhenGuard"},
     {"key": "短剧","name": "🌟短剧","type": 3,"api": "csp_TianQuanGuard"},
     {"key": "商店","name": "应用商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"jar": "https://framagit.org/zhoujck/config/-/raw/main/jar/FM.jar","ext": "https://framagit.org/zhoujck/config/-/raw/main/json/market.json"}
   ],

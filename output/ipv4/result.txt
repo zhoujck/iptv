@@ -1,6 +1,6 @@
 苏州频道,#genre#
-苏州新闻综合,https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-13.m3u8
 苏州新闻综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7321&tk=b53028476470
+苏州新闻综合,https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-13.m3u8
 苏州新闻综合,https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 苏州新闻综合,https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 苏州新闻综合,http://106.53.99.30/公众号【榴芒电视】/proxy/migu1.php?id=szxwzh
@@ -21,6 +21,8 @@ CCTV2,http://ott.mobaibox.com/PLTV/3/224/3221227543/index.m3u8
 CCTV3,http://ott.mobaibox.com/PLTV/3/224/3221228499/index.m3u8
 CCTV4,http://ott.mobaibox.com/PLTV/3/224/3221227549/index.m3u8
 CCTV5,http://ott.mobaibox.com/PLTV/3/224/3221228502/index.m3u8
+CCTV5,http://ott.mobaibox.com/PLTV/3/224/3221228502/index.m3u8
+CCTV5+,http://ott.mobaibox.com/PLTV/3/224/3221228176/index.m3u8
 CCTV5+,http://ott.mobaibox.com/PLTV/3/224/3221228176/index.m3u8
 CCTV6,http://ott.mobaibox.com/PLTV/3/224/3221228516/index.m3u8
 CCTV7,http://ott.mobaibox.com/PLTV/3/224/3221227642/index.m3u8
@@ -92,6 +94,8 @@ CHC家庭影院,http://58.19.38.162:9901/tsfile/live/1006_1.m3u8?key=txiptv&play
 精彩影视,http://itv.uat.news/TVOD/6000000006000320630/wasusyt/index.m3u8
 睛彩青少,http://ott.mobaibox.com/PLTV/3/224/3221228729/index.m3u8
 睛彩竞技,http://ott.mobaibox.com/PLTV/3/224/3221228679/index.m3u8
+睛彩竞技,http://ott.mobaibox.com/PLTV/3/224/3221228679/index.m3u8
+睛彩篮球,http://ott.mobaibox.com/PLTV/3/224/3221228682/index.m3u8
 睛彩篮球,http://ott.mobaibox.com/PLTV/3/224/3221228682/index.m3u8
 SiTV都市剧场,http://itv.uat.news/TVOD/5000000011000031111/bestzb/index.m3u8
 SiTV 魅力足球,http://itv.uat.news/TVOD/5000000011000031207/bestzb/index.m3u8
@@ -242,7 +246,7 @@ Wion News,https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 欢笑剧场4K,http://itv.uat.news/TVOD/5000000007000010001/bestzb/index.m3u8
 武搏世界,http://ott.mobaibox.com/PLTV/3/224/3221227533/index.m3u8
 求索纪录,http://itv.uat.news/TVOD/2000000004000000010/hnbblive/index.m3u8
-江苏体育•休闲,http://ott.mobaibox.com/PLTV/3/224/3221228746/index.m3u8
+江苏体育•休闲,http://ott.mobaibox.com/PLTV/3/224/3221228746/index.m3u8#http://ott.mobaibox.com/PLTV/3/224/3221228746/index.m3u8
 江苏城市,http://ott.mobaibox.com/PLTV/3/224/3221228734/index.m3u8
 江苏影视,http://ott.mobaibox.com/PLTV/3/224/3221228728/index.m3u8
 江苏教育,http://ott.mobaibox.com/PLTV/3/224/3221228613/index.m3u8

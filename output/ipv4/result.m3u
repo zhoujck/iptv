@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://gh.catmak.name/https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/epg/epg.gz"
 #EXTINF:-1 tvg-name="苏州新闻综合"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/苏州新闻综合.png" group-title="苏州频道",苏州新闻综合
-https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-13.m3u8
-#EXTINF:-1 tvg-name="苏州新闻综合"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/苏州新闻综合.png" group-title="苏州频道",苏州新闻综合
 http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7321&tk=b53028476470
+#EXTINF:-1 tvg-name="苏州新闻综合"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/苏州新闻综合.png" group-title="苏州频道",苏州新闻综合
+https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-13.m3u8
 #EXTINF:-1 tvg-name="苏州新闻综合"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/苏州新闻综合.png" group-title="苏州频道",苏州新闻综合
 https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 #EXTINF:-1 tvg-name="苏州新闻综合"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/苏州新闻综合.png" group-title="苏州频道",苏州新闻综合
@@ -41,6 +41,10 @@ http://ott.mobaibox.com/PLTV/3/224/3221228499/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227549/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV5.png" group-title="央视频道",CCTV5
 http://ott.mobaibox.com/PLTV/3/224/3221228502/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV5.png" group-title="央视频道",CCTV5
+http://ott.mobaibox.com/PLTV/3/224/3221228502/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5+"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV5+.png" group-title="央视频道",CCTV5+
+http://ott.mobaibox.com/PLTV/3/224/3221228176/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5+"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV5+.png" group-title="央视频道",CCTV5+
 http://ott.mobaibox.com/PLTV/3/224/3221228176/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV6.png" group-title="央视频道",CCTV6
@@ -179,6 +183,10 @@ http://itv.uat.news/TVOD/6000000006000320630/wasusyt/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221228729/index.m3u8
 #EXTINF:-1 tvg-name="睛彩竞技"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/睛彩竞技.png" group-title="数字频道",睛彩竞技
 http://ott.mobaibox.com/PLTV/3/224/3221228679/index.m3u8
+#EXTINF:-1 tvg-name="睛彩竞技"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/睛彩竞技.png" group-title="数字频道",睛彩竞技
+http://ott.mobaibox.com/PLTV/3/224/3221228679/index.m3u8
+#EXTINF:-1 tvg-name="睛彩篮球"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/睛彩篮球.png" group-title="数字频道",睛彩篮球
+http://ott.mobaibox.com/PLTV/3/224/3221228682/index.m3u8
 #EXTINF:-1 tvg-name="睛彩篮球"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/睛彩篮球.png" group-title="数字频道",睛彩篮球
 http://ott.mobaibox.com/PLTV/3/224/3221228682/index.m3u8
 #EXTINF:-1 tvg-name="SiTV都市剧场"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/SiTV都市剧场.png" group-title="数字频道",SiTV都市剧场
@@ -475,6 +483,8 @@ http://itv.uat.news/TVOD/5000000007000010001/bestzb/index.m3u8
 http://ott.mobaibox.com/PLTV/3/224/3221227533/index.m3u8
 #EXTINF:-1 tvg-name="求索纪录" group-title="其他",求索纪录
 http://itv.uat.news/TVOD/2000000004000000010/hnbblive/index.m3u8
+#EXTINF:-1 tvg-name="江苏体育•休闲" group-title="其他",江苏体育•休闲
+http://ott.mobaibox.com/PLTV/3/224/3221228746/index.m3u8
 #EXTINF:-1 tvg-name="江苏体育•休闲" group-title="其他",江苏体育•休闲
 http://ott.mobaibox.com/PLTV/3/224/3221228746/index.m3u8
 #EXTINF:-1 tvg-name="江苏城市" group-title="其他",江苏城市

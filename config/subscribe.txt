@@ -1,4 +1,4 @@
 #移动
 https://raw.githubusercontent.com/zhoujck/config/main/ext/移动
 #冰茶
-http://127.0.0.1:9978/proxy?do=live&url=https%3A%2F%2Fbc.188766.xyz%2F%3Fip%3D%26mishitong%3Dtrue%26mima%3Dmianfeibuhuaqian%26json%3Dtrue
+https://bc.188766.xyz/?ip=&mishitong=true&mima=mianfeibuhuaqian&json=true

@@ -12,7 +12,7 @@ from collections import OrderedDict
 # 配置参数
 CONFIG_DIR = 'config'
 SUBSCRIBE_FILE = os.path.join(CONFIG_DIR, 'subscribe.txt')
-DEMO_FILE = os.path.join(CONFIG_DIR, 'demo.txt')
+DEMO_FILE = os.path.join(CONFIG_DIR, 'demo1.txt')
 LOCAL_FILE = os.path.join(CONFIG_DIR, 'local.txt')
 BLACKLIST_FILE = os.path.join(CONFIG_DIR, 'blacklist.txt')
 

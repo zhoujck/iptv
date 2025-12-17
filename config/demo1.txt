@@ -103,6 +103,26 @@ Chanle V|
 三沙卫视|
 延边卫视|
 
+少儿频道,#genre#
+CCTV14|CCTV14-少儿|CCTV-14少儿|CCTV14|CCTV-14|
+北京卡酷少儿|卡酷少儿
+广东嘉佳卡通|嘉佳卡通
+江苏优漫卡通|优漫卡通
+上海哈哈少儿|哈哈少儿
+湖南金鹰卡通|金鹰卡通
+
+体育频道,#genre#
+CCTV5|CCTV5-体育|CCTV-5体育|CCTV5|CCTV-5|IPTV-5体育|
+CCTV5+|CCTV5+体育赛事|CCTV-5+体育赛事|CCTV5+|CCTV-5+|
+CCTV16|CCTV16-奥林匹克|CCTV-16奥林匹克|CCTV16|CCTV-16|
+北京体育休闲（4K）
+广东体育
+五星体育
+SiTV 劲爆体育|劲爆体育|
+NewTV超级体育|超级体育|NewTV超级体育 4M1080|NewTV_超级体育「IPV6」|
+NewTV精品体育|精品体育|newtv精品体育|NewTV_精品体育「IPV6」|
+iHOT爱体育|i-HOT爱体育|爱体育 6.8M|爱体育 7.5M|
+
 数字频道,#genre#
 CHC影迷电影|CHC高清电影|
 CHC动作电影|
@@ -132,7 +152,6 @@ SiTV动漫秀场|动漫秀场|
 军事迷必看大片|
 新片放映厅|
 红色轮播台|
-
 NewTV黑莓电影|黑莓电影|
 NewTV黑莓动画|黑莓动画|
 NewTV超级体育|超级体育|NewTV超级体育 4M1080|NewTV_超级体育「IPV6」|

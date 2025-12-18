@@ -1,10 +1,10 @@
 苏州频道,#genre#
 苏州新闻综合,https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-13.m3u8
+苏州新闻综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0811&tk=e503191f8e20
 苏州新闻综合,https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 苏州新闻综合,https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 苏州新闻综合,http://106.53.99.30/公众号【榴芒电视】/proxy/migu1.php?id=szxwzh
 苏州新闻综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7321&tk=b53028476470
-苏州新闻综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0811&tk=e503191f8e20
 苏州社会经济,https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
 苏州社会经济,https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
 苏州社会经济,https://stream1.freetv.fun/su-zhou-she-hui-jing-ji-2.m3u8

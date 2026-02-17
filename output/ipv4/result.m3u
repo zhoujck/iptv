@@ -12,9 +12,9 @@ https://live-auth.51kandianshi.com/szgd/csztv4.m3u8
 #EXTINF:-1 tvg-name="苏州生活资讯"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/苏州生活资讯.png" group-title="苏州频道",苏州生活资讯
 https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
 #EXTINF:-1 tvg-name="CCTV1"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视频道",CCTV1
-http://122.96.52.98:8006/JS_CUCC/G_CCTV-1-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObdnR6Hp%2BbTba4FYUlqdGPgVaNdH5qJv%2FJDE0cNUbbh7k&p=GITV&area=JS_CUCC
-#EXTINF:-1 tvg-name="CCTV1"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视频道",CCTV1
 http://112.86.202.37:8112/JSBC_iptv/C10000037@JSBC
+#EXTINF:-1 tvg-name="CCTV1"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="央视频道",CCTV1
+http://122.96.52.98:8006/JS_CUCC/G_CCTV-1-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObdnR6Hp%2BbTba4FYUlqdGPgVaNdH5qJv%2FJDE0cNUbbh7k&p=GITV&area=JS_CUCC
 #EXTINF:-1 tvg-name="CCTV2"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV2.png" group-title="央视频道",CCTV2
 http://112.86.202.37:8112/JSBC_iptv/C10000038@JSBC
 #EXTINF:-1 tvg-name="CCTV2"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV2.png" group-title="央视频道",CCTV2
@@ -114,9 +114,9 @@ http://112.86.202.37:8112/JSBC_iptv/C10000459@JSBC
 #EXTINF:-1 tvg-name="四川卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/四川卫视.png" group-title="卫视频道",四川卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000167@JSBC
 #EXTINF:-1 tvg-name="四川卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/四川卫视.png" group-title="卫视频道",四川卫视
-http://122.96.52.98:8006/JS_CUCC/SCWS.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObaaioiM%2FEWQp0TaZB5g5mT2h6T6Tk%2FxC%2FR7C%2FVai0Y0n&p=GITV&area=JS_CUCC
-#EXTINF:-1 tvg-name="四川卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/四川卫视.png" group-title="卫视频道",四川卫视
 http://122.96.52.98:8006/JS_CUCC/G_SICHUAN-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObX7XS3iuqo%2FInP87aBoeBPkHhX2QynD8Ir9egNJxwiUZ&p=GITV&area=JS_CUCC
+#EXTINF:-1 tvg-name="四川卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/四川卫视.png" group-title="卫视频道",四川卫视
+http://122.96.52.98:8006/JS_CUCC/SCWS.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObaaioiM%2FEWQp0TaZB5g5mT2h6T6Tk%2FxC%2FR7C%2FVai0Y0n&p=GITV&area=JS_CUCC
 #EXTINF:-1 tvg-name="东南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/东南卫视.png" group-title="卫视频道",东南卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000169@JSBC
 #EXTINF:-1 tvg-name="东南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/东南卫视.png" group-title="卫视频道",东南卫视
@@ -154,9 +154,9 @@ http://122.96.52.98:8006/JS_CUCC/G_HEBEI-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cO
 #EXTINF:-1 tvg-name="河南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南卫视.png" group-title="卫视频道",河南卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000185@JSBC
 #EXTINF:-1 tvg-name="河南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南卫视.png" group-title="卫视频道",河南卫视
-http://122.96.52.98:8006/JS_CUCC/HENAN.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObdvfKWW9%2Bl5iJyps%2BTWIj7XhCsZiWNVb%2B9ug3Ov%2B5E3U&p=GITV&area=JS_CUCC
-#EXTINF:-1 tvg-name="河南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南卫视.png" group-title="卫视频道",河南卫视
 http://122.96.52.98:8006/JS_CUCC/G_HENAN-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObSEruJetLM2slGgw3fYpwo1drJK%2FXmi7dS%2FskYh6jZ%2BA&p=GITV&area=JS_CUCC
+#EXTINF:-1 tvg-name="河南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/河南卫视.png" group-title="卫视频道",河南卫视
+http://122.96.52.98:8006/JS_CUCC/HENAN.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObdvfKWW9%2Bl5iJyps%2BTWIj7XhCsZiWNVb%2B9ug3Ov%2B5E3U&p=GITV&area=JS_CUCC
 #EXTINF:-1 tvg-name="黑龙江卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000050@JSBC
 #EXTINF:-1 tvg-name="黑龙江卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
@@ -168,9 +168,9 @@ http://122.96.52.98:8006/JS_CUCC/G_HUBEI-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cO
 #EXTINF:-1 tvg-name="江西卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/江西卫视.png" group-title="卫视频道",江西卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000168@JSBC
 #EXTINF:-1 tvg-name="江西卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/江西卫视.png" group-title="卫视频道",江西卫视
-http://122.96.52.98:8006/JS_CUCC/G_JIANGXI-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObTwe5POuS0%2FZquuTeN6RjT0HhX2QynD8Ir9egNJxwiUZ&p=GITV&area=JS_CUCC
-#EXTINF:-1 tvg-name="江西卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/江西卫视.png" group-title="卫视频道",江西卫视
 http://122.96.52.98:8006/JS_CUCC/JXWS.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObUlsPUHCH426UAxa5mH4J1uh6T6Tk%2FxC%2FR7C%2FVai0Y0n&p=GITV&area=JS_CUCC
+#EXTINF:-1 tvg-name="江西卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/江西卫视.png" group-title="卫视频道",江西卫视
+http://122.96.52.98:8006/JS_CUCC/G_JIANGXI-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObTwe5POuS0%2FZquuTeN6RjT0HhX2QynD8Ir9egNJxwiUZ&p=GITV&area=JS_CUCC
 #EXTINF:-1 tvg-name="吉林卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/吉林卫视.png" group-title="卫视频道",吉林卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000170@JSBC
 #EXTINF:-1 tvg-name="吉林卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/吉林卫视.png" group-title="卫视频道",吉林卫视
@@ -192,9 +192,9 @@ http://122.96.52.98:8006/JS_CUCC/G_QINGHAI.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cOb
 #EXTINF:-1 tvg-name="山东卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/山东卫视.png" group-title="卫视频道",山东卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000465@JSBC
 #EXTINF:-1 tvg-name="山东卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/山东卫视.png" group-title="卫视频道",山东卫视
-http://112.86.202.37:8112/JSBC_iptv/C10000049@JSBC
-#EXTINF:-1 tvg-name="山东卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/山东卫视.png" group-title="卫视频道",山东卫视
 http://122.96.52.98:8006/JS_CUCC/SDWS.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObVdqKNMVAccsMkWcT5KViguh6T6Tk%2FxC%2FR7C%2FVai0Y0n&p=GITV&area=JS_CUCC
+#EXTINF:-1 tvg-name="山东卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/山东卫视.png" group-title="卫视频道",山东卫视
+http://112.86.202.37:8112/JSBC_iptv/C10000049@JSBC
 #EXTINF:-1 tvg-name="山东卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/山东卫视.png" group-title="卫视频道",山东卫视
 http://122.96.52.98:8006/JS_CUCC/G_SHANDONG-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObRzmA3bkY8uR2T6FfCfBDoixPF9WEbQubdYFsDePBfPR&p=GITV&area=JS_CUCC
 #EXTINF:-1 tvg-name="山西卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/山西卫视.png" group-title="卫视频道",山西卫视
@@ -202,9 +202,9 @@ http://122.96.52.98:8006/JS_CUCC/SXWS.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObRABii
 #EXTINF:-1 tvg-name="天津卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/天津卫视.png" group-title="卫视频道",天津卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000052@JSBC
 #EXTINF:-1 tvg-name="天津卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/天津卫视.png" group-title="卫视频道",天津卫视
-http://122.96.52.98:8006/JS_CUCC/G_TIANJIN-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObT0L6Dg1hhqIlpu3cjkIsD816MKd45jyNEVVPtZi%2B%2BYw&p=GITV&area=JS_CUCC
-#EXTINF:-1 tvg-name="天津卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/天津卫视.png" group-title="卫视频道",天津卫视
 http://122.96.52.98:8006/JS_CUCC/TJWS.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObZIU6AWyd8pq2MCx1WwIBUih6T6Tk%2FxC%2FR7C%2FVai0Y0n&p=GITV&area=JS_CUCC
+#EXTINF:-1 tvg-name="天津卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/天津卫视.png" group-title="卫视频道",天津卫视
+http://122.96.52.98:8006/JS_CUCC/G_TIANJIN-CQ.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObT0L6Dg1hhqIlpu3cjkIsD816MKd45jyNEVVPtZi%2B%2BYw&p=GITV&area=JS_CUCC
 #EXTINF:-1 tvg-name="海南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/海南卫视.png" group-title="卫视频道",海南卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000200@JSBC
 #EXTINF:-1 tvg-name="海南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/海南卫视.png" group-title="卫视频道",海南卫视
@@ -214,9 +214,9 @@ http://112.86.202.37:8112/JSBC_iptv/C10000451@JSBC
 #EXTINF:-1 tvg-name="新疆卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/新疆卫视.png" group-title="卫视频道",新疆卫视
 http://122.96.52.98:8006/JS_CUCC/G_XINJIANG.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObSM9o3f6NWfJ1rkyE5xdxwpdrJK%2FXmi7dS%2FskYh6jZ%2BA&p=GITV&area=JS_CUCC
 #EXTINF:-1 tvg-name="云南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/云南卫视.png" group-title="卫视频道",云南卫视
-http://112.86.202.37:8112/JSBC_iptv/C10000202@JSBC
-#EXTINF:-1 tvg-name="云南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/云南卫视.png" group-title="卫视频道",云南卫视
 http://122.96.52.98:8006/JS_CUCC/G_YUNNAN.m3u8?Authinfo=BM%2BIYnpsBF8xf1DAR0cObStgtw0Grn6Af7HaNgDPs%2BCIi%2BgKUrSIkn0yxQmbcG0D&p=GITV&area=JS_CUCC
+#EXTINF:-1 tvg-name="云南卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/云南卫视.png" group-title="卫视频道",云南卫视
+http://112.86.202.37:8112/JSBC_iptv/C10000202@JSBC
 #EXTINF:-1 tvg-name="西藏卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/西藏卫视.png" group-title="卫视频道",西藏卫视
 http://112.86.202.37:8112/JSBC_iptv/C10000450@JSBC
 #EXTINF:-1 tvg-name="西藏卫视"tvg-logo="https://gh.catmak.name/https://raw.githubusercontent.com/fanmingming/live/main/tv/西藏卫视.png" group-title="卫视频道",西藏卫视

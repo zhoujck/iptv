@@ -565,9 +565,9 @@ if __name__ == '__main__':
     print("🎬 IPTV直播源处理脚本（增强版）")
     print("=" * 60)
     
-    # 检查依赖
-    if not check_dependencies():
-        exit(1)
+    # # 检查依赖
+    # if not check_dependencies():
+    #     exit(1)
 
     # 初始化日志文件
     with open(SPEED_LOG, 'w', encoding='utf-8') as f:

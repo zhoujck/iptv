@@ -105,18 +105,18 @@ def get_ip_type(url):
         return 'ipv4'
 
 
-# def check_dependencies():
-#     """检查必要依赖"""
-#     try:
-#         # 检查ffmpeg
-#         result = subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True)
-#         if result.returncode != 0:
-#             print("❌ 未找到ffmpeg，请先安装ffmpeg并添加到系统PATH")
-#             return False
-#     except FileNotFoundError:
-#         print("❌ 未找到ffmpeg，请先安装ffmpeg并添加到系统PATH")
-#         return False
-#     return True
+def check_dependencies():
+    """检查必要依赖"""
+    try:
+        # 检查ffmpeg
+        result = subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True)
+        if result.returncode != 0:
+            print("❌ 未找到ffmpeg，请先安装ffmpeg并添加到系统PATH")
+            return False
+    except FileNotFoundError:
+        print("❌ 未找到ffmpeg，请先安装ffmpeg并添加到系统PATH")
+        return False
+    return True
 
 
 # --------------------------
@@ -565,9 +565,9 @@ if __name__ == '__main__':
     print("🎬 IPTV直播源处理脚本（增强版）")
     print("=" * 60)
     
-    # # 检查依赖
-    # if not check_dependencies():
-    #     exit(1)
+    # 检查依赖
+    if not check_dependencies():
+        exit(1)
 
     # 初始化日志文件
     with open(SPEED_LOG, 'w', encoding='utf-8') as f:

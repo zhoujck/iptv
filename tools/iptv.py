@@ -105,18 +105,18 @@ def get_ip_type(url):
         return 'ipv4'
 
 
-def check_dependencies():
-    """检查必要依赖"""
-    try:
-        # 检查ffmpeg
-        result = subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True)
-        if result.returncode != 0:
-            print("❌ 未找到ffmpeg，请先安装ffmpeg并添加到系统PATH")
-            return False
-    except FileNotFoundError:
-        print("❌ 未找到ffmpeg，请先安装ffmpeg并添加到系统PATH")
-        return False
-    return True
+# def check_dependencies():
+#     """检查必要依赖"""
+#     try:
+#         # 检查ffmpeg
+#         result = subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True)
+#         if result.returncode != 0:
+#             print("❌ 未找到ffmpeg，请先安装ffmpeg并添加到系统PATH")
+#             return False
+#     except FileNotFoundError:
+#         print("❌ 未找到ffmpeg，请先安装ffmpeg并添加到系统PATH")
+#         return False
+#     return True
 
 
 # --------------------------

@@ -10,10 +10,10 @@ concurrency:
   group: iptv-build
   cancel-in-progress: true
 
-# # 2. 显式声明最小权限，更安全
-# permissions:
-#   contents: write
-#   actions: write
+# 2. 显式声明最小权限，更安全
+permissions:
+  contents: write
+  actions: write
 
 jobs:
   build:
@@ -61,7 +61,7 @@ jobs:
         run: |
           git config user.email "zhoujck@live.com"
           git config user.name "zhoujck"
-          git add live.txt
+          git add live.txt output/
           if git diff --cached --quiet; then
             echo "无变更，跳过提交"
           else

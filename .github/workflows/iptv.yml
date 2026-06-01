@@ -10,10 +10,10 @@ concurrency:
   group: iptv-build
   cancel-in-progress: true
 
-# 2. 显式声明最小权限，更安全
-permissions:
-  contents: write
-  actions: write
+# # 2. 显式声明最小权限，更安全
+# permissions:
+#   contents: write
+#   actions: write
 
 jobs:
   build:

@@ -1,4 +1,4 @@
 #电信1
-https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+#https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 #电信2
 https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt

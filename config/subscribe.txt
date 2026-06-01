@@ -1,4 +1,4 @@
-#移动
-https://raw.githubusercontent.com/zhoujck/config/main/ext/联通
-#冰茶
-#https://bc.188766.xyz/?ip=&lunbo=false&mima=mianfeibuhuaqian&huikan=1
+#电信1
+https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+#电信2
+https://raw.githubusercontent.com/wxq684007/gx/refs/heads/main/JSTV.m3u

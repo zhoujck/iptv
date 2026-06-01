@@ -172,7 +172,7 @@ def fetch_sources():
 
     try:
         with open(SUBSCRIBE_FILE, 'r', encoding='utf-8') as f:
-            urls = [line.strip() for line in f if line.strip()]
+            urls = [line.strip() for line in f if line.strip() and not line.strip().startswith('#')]
 
         print(f"  发现 {len(urls)} 个订阅地址")
         for idx, url in enumerate(urls, 1):

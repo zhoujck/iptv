@@ -34,7 +34,7 @@ MAX_WORKERS = 10
 HTTPS_VERIFY = False
 SPEED_THRESHOLD = 300   # 速度阈值 KB/s
 RESET_COUNT = 12        # 运行12次后重置黑名单
-TEST_ALL_SOURCES = True # True=检测所有源, False=只检测模板内的源
+TEST_ALL_SOURCES = False # True=检测所有源, False=只检测模板内的源
 
 # 全局变量
 failed_domains = set()

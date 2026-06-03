@@ -29,10 +29,11 @@ RUN_COUNT_FILE = os.path.join(CONFIG_DIR, 'run_count.txt')
 OUTPUT_DIR = 'output'
 SPEED_LOG = os.path.join(OUTPUT_DIR, 'sort.log')
 
-SPEED_TEST_DURATION = 5
-MAX_WORKERS = 10
-HTTPS_VERIFY = False
+SPEED_TEST_DURATION = 5   #测速时常5秒
+MAX_WORKERS = 10   #测速并发线程10条
+HTTPS_VERIFY = False   #是否验证HTTPS SLL 证书
 SPEED_THRESHOLD = 300   # 速度阈值 KB/s
+MAX_SOURCES_PER_CHANNEL = 5  # 每个频道最多5源
 RESET_COUNT = 12        # 运行12次后重置黑名单
 TEST_ALL_SOURCES = False # True=检测所有源, False=只检测模板内的源
 

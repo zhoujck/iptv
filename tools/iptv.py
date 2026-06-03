@@ -859,7 +859,7 @@ def finalize_output(organized, group_order, channel_order):
                         seen_in_channel.add(normalized_url)
                         unique_urls.append((url, speed, protocol))
 
-                for url, speed, protocol in unique_urls:
+                for url, speed, protocol in unique_urls[:MAX_SOURCES_PER_CHANNEL]:
                     txt_lines.append(f"{channel},{url}")
                     total_sources += 1
                     speed_stats.append(speed)
@@ -887,7 +887,7 @@ def finalize_output(organized, group_order, channel_order):
                         unique_urls.append((url, speed, protocol))
 
                 if unique_urls:
-                    for url, speed, protocol in unique_urls:
+                    for url, speed, protocol in unique_urls[:MAX_SOURCES_PER_CHANNEL]:
                         txt_lines.append(f"{channel},{url}")
                         total_sources += 1
                         speed_stats.append(speed)
@@ -916,7 +916,7 @@ def finalize_output(organized, group_order, channel_order):
                         unique_urls.append((url, speed, protocol))
 
                 if unique_urls:
-                    for url, speed, protocol in unique_urls:
+                    for url, speed, protocol in unique_urls[:MAX_SOURCES_PER_CHANNEL]:
                         txt_lines.append(f"{channel},{url}")
                         total_sources += 1
                         speed_stats.append(speed)

@@ -61,7 +61,7 @@ jobs:
         run: |
           git config user.email "zhoujck@live.com"
           git config user.name "zhoujck"
-          git add live.txt output/
+          git add .
           if git diff --cached --quiet; then
             echo "无变更，跳过提交"
           else

@@ -58,3 +58,5 @@ zhibo.hkstv.tv
 8.135.27.147
 gslbmgsplive.miguvideo.com
 lxajh.top
+119.39.9.8
+218.15.183.23

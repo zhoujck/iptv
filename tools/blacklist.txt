@@ -67,3 +67,5 @@ cd-live-stream.news.cctvplus.com
 112.123.243.37
 116.52.173.106
 p.ytelc.com
+123.130.84.106
+hlszymgsplive.miguvideo.com

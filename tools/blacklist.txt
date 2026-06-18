@@ -74,3 +74,4 @@ bp-resource-dfl.bestv.cn
 v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com
 192.151.150.154
 207.56.13.146
+118.193.115.2

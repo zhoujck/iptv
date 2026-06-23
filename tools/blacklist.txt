@@ -48,3 +48,6 @@ zhibo.hkstv.tv
 124.116.183.146
 222.169.85.8
 live-play-hls.cctvnews.cctv.com
+112.123.243.37
+lxajh.top
+vip1.xinketongxun.fun

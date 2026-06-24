@@ -51,3 +51,10 @@ live-play-hls.cctvnews.cctv.com
 112.123.243.37
 lxajh.top
 vip1.xinketongxun.fun
+116.52.173.25
+14.153.176.157
+183.129.255.66
+198.204.228.26
+cdn6.163189.xyz
+php.jdshipin.com
+t.061899.xyz

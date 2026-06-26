@@ -68,3 +68,5 @@ t.061899.xyz
 61.145.242.11
 8.135.27.147
 gslbmgsplive.miguvideo.com
+p.ytelc.com
+pull-hls-f1.douyinliving.com

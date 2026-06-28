@@ -72,3 +72,5 @@ p.ytelc.com
 pull-hls-f1.douyinliving.com
 223.75.149.129
 fuxin.yunjifei.top
+111.231.6.102
+tx-origin.pull.yximgs.com

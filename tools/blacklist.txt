@@ -74,3 +74,5 @@ pull-hls-f1.douyinliving.com
 fuxin.yunjifei.top
 111.231.6.102
 tx-origin.pull.yximgs.com
+116.52.173.172
+27.12.12.207

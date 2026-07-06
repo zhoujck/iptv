@@ -60,3 +60,5 @@ p.ytelc.com
 183.129.255.66
 222.214.208.34
 v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com
+112.123.243.37
+bp-resource-dfl.bestv.cn

@@ -51,3 +51,4 @@ zhibo.hkstv.tv
 27.12.12.183
 8.153.110.51
 gslbmgsplive.miguvideo.com
+bp-resource-dfl.bestv.cn

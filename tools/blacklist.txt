@@ -52,3 +52,5 @@ zhibo.hkstv.tv
 8.153.110.51
 gslbmgsplive.miguvideo.com
 bp-resource-dfl.bestv.cn
+111.231.6.102
+epg.pw

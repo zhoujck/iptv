@@ -54,3 +54,5 @@ gslbmgsplive.miguvideo.com
 bp-resource-dfl.bestv.cn
 111.231.6.102
 epg.pw
+hkstv.tv
+p.ytelc.com

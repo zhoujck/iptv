@@ -56,3 +56,6 @@ bp-resource-dfl.bestv.cn
 epg.pw
 hkstv.tv
 p.ytelc.com
+118.193.115.2
+hlscdn.liangtv.cn
+pull-hls-f1.douyinliving.com

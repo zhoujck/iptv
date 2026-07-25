@@ -75,3 +75,7 @@ lxajh.top
 218.13.170.98
 59.110.153.247
 222.134.245.16
+116.147.108.34
+123.130.84.106
+shcm-stream-cf1.stream.264788.xyz
+tvcdn.stream3.hndt.com

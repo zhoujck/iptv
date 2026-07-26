@@ -79,3 +79,4 @@ lxajh.top
 123.130.84.106
 shcm-stream-cf1.stream.264788.xyz
 tvcdn.stream3.hndt.com
+42.94.210.57

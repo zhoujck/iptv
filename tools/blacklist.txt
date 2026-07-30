@@ -51,3 +51,5 @@ gslbmgsplive.miguvideo.com
 idclive.hljtv.com
 mg.cttv.vip
 8.135.27.147
+223.78.65.165
+pull-hls-f1.douyinliving.com

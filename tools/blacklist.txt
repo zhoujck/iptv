@@ -53,3 +53,9 @@ mg.cttv.vip
 8.135.27.147
 223.78.65.165
 pull-hls-f1.douyinliving.com
+123.130.84.106
+38.75.136.137
+txycdn.video.qq.com
+txycdn1.video.qq.com
+txycdn3.video.qq.com
+txycdn6.video.qq.com

@@ -59,3 +59,7 @@ txycdn.video.qq.com
 txycdn1.video.qq.com
 txycdn3.video.qq.com
 txycdn6.video.qq.com
+111.8.224.6
+118.193.115.2
+cssbyd.imwork.net
+vip1.xinketongxun.fun

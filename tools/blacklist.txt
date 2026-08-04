@@ -72,3 +72,5 @@ lxajh.top
 txycdn2.video.qq.com
 txycdn4.video.qq.com
 zwebl02.cztv.com
+111.4.59.41
+epg.pw

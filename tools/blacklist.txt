@@ -74,3 +74,4 @@ txycdn4.video.qq.com
 zwebl02.cztv.com
 111.4.59.41
 epg.pw
+101.66.194.115

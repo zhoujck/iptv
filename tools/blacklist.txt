@@ -52,3 +52,11 @@ zhibo.hkstv.tv
 123.118.55.165
 183.162.104.72
 27.12.12.56
+119.39.9.8
+123.130.84.106
+223.78.65.165
+txycdn1.video.qq.com
+txycdn3.video.qq.com
+txycdn4.video.qq.com
+txycdn6.video.qq.com
+txycdn7.video.qq.com

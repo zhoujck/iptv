@@ -60,3 +60,11 @@ txycdn3.video.qq.com
 txycdn4.video.qq.com
 txycdn6.video.qq.com
 txycdn7.video.qq.com
+110.6.204.65
+111.76.19.197
+116.113.72.150
+116.52.173.100
+139.227.21.22
+222.130.32.96
+27.12.12.5
+e2.woc.iiiya.cn

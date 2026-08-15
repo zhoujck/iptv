@@ -85,3 +85,7 @@ vip1.xinketongxun.fun
 42.94.210.22
 60.168.105.165
 bp-resource-dfl.bestv.cn
+111.231.6.102
+124.116.183.146
+139.214.181.174
+ali-vl.cztv.com

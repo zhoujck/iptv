@@ -40,3 +40,7 @@ zhibo.hkstv.tv
 38.75.136.137
 live-play-hls.cctvnews.cctv.com
 t.061899.xyz
+111.59.24.227
+bp-resource-dfl.bestv.cn
+e2.woc.iiiya.cn
+epg.pw

@@ -44,3 +44,4 @@ t.061899.xyz
 bp-resource-dfl.bestv.cn
 e2.woc.iiiya.cn
 epg.pw
+1.28.123.148

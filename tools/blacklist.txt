@@ -53,3 +53,4 @@ epg.pw
 218.13.138.139
 gslbmgsplive.miguvideo.com
 58.56.162.102
+61.178.227.57

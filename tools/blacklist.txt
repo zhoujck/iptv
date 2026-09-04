@@ -38,3 +38,6 @@ www.tszhgjj.cn
 zhibo.hkstv.tv
 1.94.31.214
 101.66.194.161
+110.154.192.90
+bp-resource-dfl.bestv.cn
+e2.woc.iiiya.cn

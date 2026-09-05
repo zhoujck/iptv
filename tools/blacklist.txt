@@ -41,3 +41,5 @@ zhibo.hkstv.tv
 110.154.192.90
 bp-resource-dfl.bestv.cn
 e2.woc.iiiya.cn
+123.130.84.106
+124.228.160.210

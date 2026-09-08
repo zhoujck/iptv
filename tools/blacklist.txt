@@ -50,3 +50,5 @@ e2.woc.iiiya.cn
 gslbmgsplive.miguvideo.com
 101.66.195.43
 122.224.58.42
+101.66.198.251
+222.169.85.8

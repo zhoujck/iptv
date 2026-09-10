@@ -52,3 +52,4 @@ gslbmgsplive.miguvideo.com
 122.224.58.42
 101.66.198.251
 222.169.85.8
+webcast.hkstv.tv

@@ -53,3 +53,6 @@ gslbmgsplive.miguvideo.com
 101.66.198.251
 222.169.85.8
 webcast.hkstv.tv
+epg.pw
+r.jdshipin.com
+tvcdn.stream3.hndt.com

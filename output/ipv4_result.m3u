@@ -1,229 +1,171 @@
 #EXTM3U x-tvg-url="https://gh.catmak.name/https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/epg/epg.gz"
 #EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",🌐 CCTV1 | 858.4KB/s
 http://120.76.248.139/live/bfgd/4200000488.m3u8
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",🌐 CCTV1 | 451.2KB/s
-http://182.61.15.229:80/608807420
+#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",🌐 CCTV1 | 433.6KB/s
+http://221.7.175.154:8445/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",🌐 CCTV1 | 418.9KB/s
+http://222.169.85.8:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV2" group-title="央视频道",🌐 CCTV2 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000061.m3u8
-#EXTINF:-1 tvg-name="CCTV2" group-title="央视频道",🌐 CCTV2 | 451.2KB/s
-http://182.61.15.229:80/631780532
-#EXTINF:-1 tvg-name="CCTV3" group-title="央视频道",🌐 CCTV3 | 1813.5KB/s
+#EXTINF:-1 tvg-name="CCTV2" group-title="央视频道",🌐 CCTV2 | 422.9KB/s
+http://113.25.252.226:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV2" group-title="央视频道",🌐 CCTV2 | 418.9KB/s
+http://222.169.85.8:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV3" group-title="央视频道",🌐 CCTV3 | 1994.1KB/s
 http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV3" group-title="央视频道",🌐 CCTV3 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000062.m3u8
-#EXTINF:-1 tvg-name="CCTV3" group-title="央视频道",🌐 CCTV3 | 451.2KB/s
-http://182.61.15.229:80/624878271
 #EXTINF:-1 tvg-name="CCTV3" group-title="央视频道",🌐 CCTV3 | 433.6KB/s
 http://221.7.175.154:8445/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV4" group-title="央视频道",🌐 CCTV4 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000063.m3u8
-#EXTINF:-1 tvg-name="CCTV4" group-title="央视频道",🌐 CCTV4 | 451.2KB/s
-http://182.61.15.229:80/631780421
-#EXTINF:-1 tvg-name="CCTV5" group-title="央视频道",🌐 CCTV5 | 1999.0KB/s
+#EXTINF:-1 tvg-name="CCTV4" group-title="央视频道",🌐 CCTV4 | 433.6KB/s
+http://221.7.175.154:8445/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV4" group-title="央视频道",🌐 CCTV4 | 422.9KB/s
+http://113.25.252.226:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV5" group-title="央视频道",🌐 CCTV5 | 1813.5KB/s
 http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV5" group-title="央视频道",🌐 CCTV5 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000064.m3u8
-#EXTINF:-1 tvg-name="CCTV5" group-title="央视频道",🌐 CCTV5 | 451.2KB/s
-http://182.61.15.229:80/641886683
 #EXTINF:-1 tvg-name="CCTV5+" group-title="央视频道",🌐 CCTV5+ | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000246.m3u8
 #EXTINF:-1 tvg-name="CCTV5+" group-title="央视频道",🔒 CCTV5+ | 533.2KB/s
 https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
-#EXTINF:-1 tvg-name="CCTV5+" group-title="央视频道",🌐 CCTV5+ | 451.2KB/s
-http://182.61.15.229:80/641886773
-#EXTINF:-1 tvg-name="CCTV5+" group-title="央视频道",🌐 CCTV5+ | 422.9KB/s
-http://120.238.94.82:9901/tsfile/live/1030_1.m3u8
-#EXTINF:-1 tvg-name="CCTV6" group-title="央视频道",🌐 CCTV6 | 862.3KB/s
+#EXTINF:-1 tvg-name="CCTV6" group-title="央视频道",🌐 CCTV6 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000065.m3u8
-#EXTINF:-1 tvg-name="CCTV6" group-title="央视频道",🌐 CCTV6 | 451.2KB/s
-http://182.61.15.229:80/624878396
 #EXTINF:-1 tvg-name="CCTV7" group-title="央视频道",🌐 CCTV7 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000127.m3u8
-#EXTINF:-1 tvg-name="CCTV7" group-title="央视频道",🌐 CCTV7 | 451.2KB/s
-http://182.61.15.229:80/673168121
-#EXTINF:-1 tvg-name="CCTV7" group-title="央视频道",🌐 CCTV7 | 386.7KB/s
-http://207.56.13.146:81/cdnlive/cctv7.m3u8
 #EXTINF:-1 tvg-name="CCTV8" group-title="央视频道",🌐 CCTV8 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000066.m3u8
-#EXTINF:-1 tvg-name="CCTV8" group-title="央视频道",🌐 CCTV8 | 451.2KB/s
-http://182.61.15.229:80/624878356
-#EXTINF:-1 tvg-name="CCTV8" group-title="央视频道",🌐 CCTV8 | 418.9KB/s
-http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="CCTV8" group-title="央视频道",🌐 CCTV8 | 386.7KB/s
-http://207.56.13.146:81/cdnlive/cctv8.m3u8
 #EXTINF:-1 tvg-name="CCTV9" group-title="央视频道",🌐 CCTV9 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000128.m3u8
-#EXTINF:-1 tvg-name="CCTV9" group-title="央视频道",🌐 CCTV9 | 451.2KB/s
-http://182.61.15.229:80/673168140
+#EXTINF:-1 tvg-name="CCTV9" group-title="央视频道",🔒 CCTV9 | 318.4KB/s
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d9314dab837a29292bdb6342ab71d219
 #EXTINF:-1 tvg-name="CCTV10" group-title="央视频道",🌐 CCTV10 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000129.m3u8
-#EXTINF:-1 tvg-name="CCTV10" group-title="央视频道",🌐 CCTV10 | 451.2KB/s
-http://182.61.15.229:80/624878405
-#EXTINF:-1 tvg-name="CCTV11" group-title="央视频道",🌐 CCTV11 | 856.4KB/s
+#EXTINF:-1 tvg-name="CCTV10" group-title="央视频道",🌐 CCTV10 | 422.9KB/s
+http://113.25.252.226:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV11" group-title="央视频道",🌐 CCTV11 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000130.m3u8
-#EXTINF:-1 tvg-name="CCTV11" group-title="央视频道",🌐 CCTV11 | 451.2KB/s
-http://182.61.15.229:80/667987558
 #EXTINF:-1 tvg-name="CCTV12" group-title="央视频道",🌐 CCTV12 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000131.m3u8
-#EXTINF:-1 tvg-name="CCTV12" group-title="央视频道",🌐 CCTV12 | 451.2KB/s
-http://182.61.15.229:80/673168185
 #EXTINF:-1 tvg-name="CCTV12" group-title="央视频道",🌐 CCTV12 | 423.8KB/s
 http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV12" group-title="央视频道",🌐 CCTV12 | 422.9KB/s
+http://113.25.252.226:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV13" group-title="央视频道",🌐 CCTV13 | 858.4KB/s
 http://120.76.248.139/live/bfgd/4200000067.m3u8
-#EXTINF:-1 tvg-name="CCTV13" group-title="央视频道",🌐 CCTV13 | 451.2KB/s
-http://182.61.15.229:80/608807423
 #EXTINF:-1 tvg-name="CCTV13" group-title="央视频道",🔒 CCTV13 | 319.3KB/s
 https://event.pull.hebtv.com/jishi/cp1.m3u8
 #EXTINF:-1 tvg-name="CCTV14" group-title="央视频道",🌐 CCTV14 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000132.m3u8
-#EXTINF:-1 tvg-name="CCTV14" group-title="央视频道",🌐 CCTV14 | 451.2KB/s
-http://182.61.15.229:80/624878440
-#EXTINF:-1 tvg-name="CCTV14" group-title="央视频道",🔒 CCTV14 | 319.3KB/s
-https://event.pull.hebtv.com/jishi/cp2.m3u8
-#EXTINF:-1 tvg-name="CCTV15" group-title="央视频道",🌐 CCTV15 | 856.4KB/s
+#EXTINF:-1 tvg-name="CCTV15" group-title="央视频道",🌐 CCTV15 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000133.m3u8
-#EXTINF:-1 tvg-name="CCTV15" group-title="央视频道",🌐 CCTV15 | 451.2KB/s
-http://182.61.15.229:80/673168223
-#EXTINF:-1 tvg-name="CCTV17" group-title="央视频道",🔒 CCTV17 | 87651.0KB/s
+#EXTINF:-1 tvg-name="CCTV17" group-title="央视频道",🔒 CCTV17 | 69180.0KB/s
 https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="CCTV17" group-title="央视频道",🌐 CCTV17 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000204.m3u8
-#EXTINF:-1 tvg-name="CCTV17" group-title="央视频道",🌐 CCTV17 | 451.2KB/s
-http://182.61.15.229:80/673168256
-#EXTINF:-1 tvg-name="CCTV第一剧场" group-title="央视频道",🔒 CCTV第一剧场 | 99834.9KB/s
+#EXTINF:-1 tvg-name="CCTV第一剧场" group-title="央视频道",🔒 CCTV第一剧场 | 40556.2KB/s
 https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="CCTV怀旧剧场" group-title="央视频道",🔒 CCTV怀旧剧场 | 52981.7KB/s
+#EXTINF:-1 tvg-name="CCTV怀旧剧场" group-title="央视频道",🔒 CCTV怀旧剧场 | 60862.0KB/s
 https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f640f75ff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="CCTV风云剧场" group-title="央视频道",🔒 CCTV风云剧场 | 90504.8KB/s
+#EXTINF:-1 tvg-name="CCTV风云剧场" group-title="央视频道",🔒 CCTV风云剧场 | 67754.3KB/s
 https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="CCTV风云音乐" group-title="央视频道",🔒 CCTV风云音乐 | 41353.7KB/s
+#EXTINF:-1 tvg-name="CCTV风云音乐" group-title="央视频道",🔒 CCTV风云音乐 | 65480.0KB/s
 https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="CCTV兵器科技" group-title="央视频道",🔒 CCTV兵器科技 | 82836.6KB/s
-https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="CCTV老故事" group-title="央视频道",🌐 CCTV老故事 | 451.2KB/s
-http://182.61.15.229:80/884121956
-#EXTINF:-1 tvg-name="CCTV发现之旅" group-title="央视频道",🌐 CCTV发现之旅 | 451.2KB/s
-http://182.61.15.229:80/624878970
-#EXTINF:-1 tvg-name="中国天气" group-title="央视频道",🌐 中国天气 | 451.2KB/s
-http://182.61.15.229:80/959986621
-#EXTINF:-1 tvg-name="CCTV中学生" group-title="央视频道",🌐 CCTV中学生 | 451.2KB/s
-http://182.61.15.229:80/708869532
+#EXTINF:-1 tvg-name="CCTV兵器科技" group-title="央视频道",🔒 CCTV兵器科技 | 59893.9KB/s
+https://live.264788.xyz/channel/bingqikeji?streamid=530cb4e58bbc48b7fc26f5e0a2e47966&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="CETV1" group-title="央视频道",🌐 CETV1 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000135.m3u8
-#EXTINF:-1 tvg-name="CETV1" group-title="央视频道",🌐 CETV1 | 451.2KB/s
-http://182.61.15.229:80/923287154
 #EXTINF:-1 tvg-name="CETV2" group-title="央视频道",🌐 CETV2 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000492.m3u8
-#EXTINF:-1 tvg-name="CETV2" group-title="央视频道",🌐 CETV2 | 451.2KB/s
-http://182.61.15.229:80/923287211
-#EXTINF:-1 tvg-name="CETV4" group-title="央视频道",🌐 CETV4 | 451.2KB/s
-http://182.61.15.229:80/923287339
 #EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="卫视频道",🌐 凤凰卫视中文台 | 433.6KB/s
 http://221.7.175.154:85/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="卫视频道",🌐 凤凰卫视资讯台 | 433.6KB/s
 http://221.7.175.154:8445/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="卫视频道",🌐 凤凰卫视资讯台 | 433.6KB/s
 http://221.7.175.154:85/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视频道",🔒 湖南卫视 | 2848.5KB/s
-https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视频道",🌐 湖南卫视 | 856.4KB/s
+#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视频道",🌐 湖南卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000086.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" group-title="卫视频道",🌐 湖南卫视 | 428.7KB/s
 http://221.7.175.154:8445/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",🌐 浙江卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000094.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",🌐 浙江卫视 | 474.6KB/s
+#EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",🌐 浙江卫视 | 472.7KB/s
 http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",🌐 浙江卫视 | 345.7KB/s
+#EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",🌐 浙江卫视 | 428.7KB/s
+http://221.7.175.154:8445/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",🌐 浙江卫视 | 343.8KB/s
 http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
+#EXTINF:-1 tvg-name="东方卫视" group-title="卫视频道",🔒 东方卫视 | 9921.5KB/s
+https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 #EXTINF:-1 tvg-name="东方卫视" group-title="卫视频道",🌐 东方卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000093.m3u8
 #EXTINF:-1 tvg-name="东方卫视" group-title="卫视频道",🌐 东方卫视 | 833.0KB/s
 http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 tvg-name="东方卫视" group-title="卫视频道",🌐 东方卫视 | 832.0KB/s
 http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-#EXTINF:-1 tvg-name="东方卫视" group-title="卫视频道",🌐 东方卫视 | 451.2KB/s
-http://182.61.15.229:80/651632648
 #EXTINF:-1 tvg-name="北京卫视" group-title="卫视频道",🌐 北京卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000083.m3u8
-#EXTINF:-1 tvg-name="北京卫视" group-title="卫视频道",🌐 北京卫视 | 451.2KB/s
-http://182.61.15.229:80/630287636
 #EXTINF:-1 tvg-name="江苏卫视" group-title="卫视频道",🌐 江苏卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000085.m3u8
-#EXTINF:-1 tvg-name="江苏卫视" group-title="卫视频道",🌐 江苏卫视 | 451.2KB/s
-http://182.61.15.229:80/623899368
 #EXTINF:-1 tvg-name="安徽卫视" group-title="卫视频道",🌐 安徽卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000096.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" group-title="卫视频道",🌐 重庆卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000107.m3u8
-#EXTINF:-1 tvg-name="重庆卫视" group-title="卫视频道",🌐 重庆卫视 | 451.2KB/s
-http://182.61.15.229:80/738910914
-#EXTINF:-1 tvg-name="四川卫视" group-title="卫视频道",🔒 四川卫视 | 75497.1KB/s
-https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="四川卫视" group-title="卫视频道",🌐 四川卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000103.m3u8
 #EXTINF:-1 tvg-name="东南卫视" group-title="卫视频道",🌐 东南卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000483.m3u8
-#EXTINF:-1 tvg-name="东南卫视" group-title="卫视频道",🌐 东南卫视 | 451.2KB/s
-http://182.61.15.229:80/849116810
-#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视频道",🌐 深圳卫视 | 862.3KB/s
+#EXTINF:-1 tvg-name="东南卫视" group-title="卫视频道",🌐 东南卫视 | 498.0KB/s
+http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视频道",🌐 深圳卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000100.m3u8
 #EXTINF:-1 tvg-name="深圳卫视" group-title="卫视频道",🌐 深圳卫视 | 428.7KB/s
 http://221.7.175.154:8445/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视频道",🌐 深圳卫视 | 422.9KB/s
-http://120.238.94.82:9901/tsfile/live/1065_1.m3u8
-#EXTINF:-1 tvg-name="广东卫视" group-title="卫视频道",🔒 广东卫视 | 59031.3KB/s
+#EXTINF:-1 tvg-name="广东卫视" group-title="卫视频道",🔒 广东卫视 | 37225.8KB/s
 https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
 #EXTINF:-1 tvg-name="广东卫视" group-title="卫视频道",🌐 广东卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000092.m3u8
-#EXTINF:-1 tvg-name="广东卫视" group-title="卫视频道",🌐 广东卫视 | 451.2KB/s
-http://182.61.15.229:80/608831231
+#EXTINF:-1 tvg-name="广东卫视" group-title="卫视频道",🌐 广东卫视 | 428.7KB/s
+http://221.7.175.154:8445/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="广东卫视" group-title="卫视频道",🌐 广东卫视 | 428.7KB/s
+http://222.169.85.8:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="广西卫视" group-title="卫视频道",🌐 广西卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000116.m3u8
-#EXTINF:-1 tvg-name="广西卫视" group-title="卫视频道",🔒 广西卫视 | 368.2KB/s
-https://piccpndks.v.kcdnvip.com/audio/guangxi_2/index.m3u8
-#EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视频道",🌐 甘肃卫视 | 862.3KB/s
+#EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视频道",🌐 甘肃卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000119.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视频道",🌐 甘肃卫视 | 428.7KB/s
 http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
-#EXTINF:-1 tvg-name="贵州卫视" group-title="卫视频道",🔒 贵州卫视 | 101462.9KB/s
-https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="贵州卫视" group-title="卫视频道",🌐 贵州卫视 | 862.3KB/s
+#EXTINF:-1 tvg-name="贵州卫视" group-title="卫视频道",🌐 贵州卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000101.m3u8
-#EXTINF:-1 tvg-name="河北卫视" group-title="卫视频道",🌐 河北卫视 | 862.3KB/s
+#EXTINF:-1 tvg-name="河北卫视" group-title="卫视频道",🌐 河北卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000108.m3u8
-#EXTINF:-1 tvg-name="河北卫视" group-title="卫视频道",🌐 河北卫视 | 451.2KB/s
-http://182.61.15.229:80/962042070
 #EXTINF:-1 tvg-name="河北卫视" group-title="卫视频道",🌐 河北卫视 | 383.8KB/s
 http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
-#EXTINF:-1 tvg-name="河南卫视" group-title="卫视频道",🌐 河南卫视 | 862.3KB/s
+#EXTINF:-1 tvg-name="河南卫视" group-title="卫视频道",🌐 河南卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000339.m3u8
-#EXTINF:-1 tvg-name="河南卫视" group-title="卫视频道",🌐 河南卫视 | 451.2KB/s
-http://182.61.15.229:80/790187291
 #EXTINF:-1 tvg-name="河南卫视" group-title="卫视频道",🌐 河南卫视 | 428.7KB/s
 http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河南卫视" group-title="卫视频道",🌐 河南卫视 | 348.6KB/s
-http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=8df7e1d6e95c3424ccb0795cacc1eb3c&wsTime=1789542292
-#EXTINF:-1 tvg-name="黑龙江卫视" group-title="卫视频道",🌐 黑龙江卫视 | 859.4KB/s
+#EXTINF:-1 tvg-name="河南卫视" group-title="卫视频道",🌐 河南卫视 | 349.6KB/s
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=b81541c6c45ab204adabadfea1947fdd&wsTime=1789628648
+#EXTINF:-1 tvg-name="黑龙江卫视" group-title="卫视频道",🌐 黑龙江卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000095.m3u8
-#EXTINF:-1 tvg-name="湖北卫视" group-title="卫视频道",🌐 湖北卫视 | 859.4KB/s
+#EXTINF:-1 tvg-name="湖北卫视" group-title="卫视频道",🌐 湖北卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000102.m3u8
-#EXTINF:-1 tvg-name="湖北卫视" group-title="卫视频道",🌐 湖北卫视 | 451.2KB/s
-http://182.61.15.229:80/947472496
-#EXTINF:-1 tvg-name="江西卫视" group-title="卫视频道",🌐 江西卫视 | 862.3KB/s
+#EXTINF:-1 tvg-name="湖北卫视" group-title="卫视频道",🌐 湖北卫视 | 428.7KB/s
+http://221.7.175.154:8445/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="江西卫视" group-title="卫视频道",🌐 江西卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000098.m3u8
-#EXTINF:-1 tvg-name="江西卫视" group-title="卫视频道",🌐 江西卫视 | 451.2KB/s
-http://182.61.15.229:80/783847495
-#EXTINF:-1 tvg-name="吉林卫视" group-title="卫视频道",🌐 吉林卫视 | 862.3KB/s
+#EXTINF:-1 tvg-name="江西卫视" group-title="卫视频道",🌐 江西卫视 | 422.9KB/s
+http://113.25.252.226:9901/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="吉林卫视" group-title="卫视频道",🌐 吉林卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000097.m3u8
-#EXTINF:-1 tvg-name="吉林卫视" group-title="卫视频道",🌐 吉林卫视 | 451.2KB/s
-http://182.61.15.229:80/947472500
 #EXTINF:-1 tvg-name="吉林卫视" group-title="卫视频道",🌐 吉林卫视 | 433.6KB/s
 http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="内蒙古卫视" group-title="卫视频道",🌐 内蒙古卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000110.m3u8
-#EXTINF:-1 tvg-name="内蒙古卫视" group-title="卫视频道",🌐 内蒙古卫视 | 323.2KB/s
+#EXTINF:-1 tvg-name="内蒙古卫视" group-title="卫视频道",🌐 内蒙古卫视 | 322.3KB/s
 http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" group-title="卫视频道",🌐 辽宁卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000141.m3u8
@@ -231,75 +173,47 @@ http://120.76.248.139/live/bfgd/4200000141.m3u8
 http://120.76.248.139/live/bfgd/4200000185.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" group-title="卫视频道",🌐 辽宁卫视 | 858.4KB/s
 http://120.76.248.139/live/bfgd/4200000058.m3u8
-#EXTINF:-1 tvg-name="辽宁卫视" group-title="卫视频道",🌐 辽宁卫视 | 451.2KB/s
-http://182.61.15.229:80/630291707
-#EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视频道",🔒 宁夏卫视 | 117174.4KB/s
-https://live.264788.xyz/channel/ningxiaweishi?streamid=551474d02bee1c160e1692e22c45ddba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视频道",🔒 宁夏卫视 | 69955.5KB/s
+https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视频道",🌐 宁夏卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000118.m3u8
-#EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视频道",🌐 宁夏卫视 | 451.2KB/s
-http://182.61.15.229:80/738910535
-#EXTINF:-1 tvg-name="青海卫视" group-title="卫视频道",🌐 青海卫视 | 862.3KB/s
+#EXTINF:-1 tvg-name="青海卫视" group-title="卫视频道",🌐 青海卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000111.m3u8
-#EXTINF:-1 tvg-name="青海卫视" group-title="卫视频道",🌐 青海卫视 | 451.2KB/s
-http://182.61.15.229:80/947472506
 #EXTINF:-1 tvg-name="山东卫视" group-title="卫视频道",🌐 山东卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000099.m3u8
-#EXTINF:-1 tvg-name="山东教育卫视" group-title="卫视频道",🌐 山东教育卫视 | 451.2KB/s
-http://182.61.15.229:80/609154353
-#EXTINF:-1 tvg-name="山西卫视" group-title="卫视频道",🌐 山西卫视 | 2039.1KB/s
+#EXTINF:-1 tvg-name="山西卫视" group-title="卫视频道",🌐 山西卫视 | 2038.1KB/s
 http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
-#EXTINF:-1 tvg-name="山西卫视" group-title="卫视频道",🌐 山西卫视 | 428.7KB/s
-http://222.134.245.16:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="山西卫视" group-title="卫视频道",🌐 山西卫视 | 418.0KB/s
 http://153.0.171.163:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="天津卫视" group-title="卫视频道",🌐 天津卫视 | 418.0KB/s
 http://153.0.171.163:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="海南卫视" group-title="卫视频道",🌐 海南卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000473.m3u8
-#EXTINF:-1 tvg-name="海南卫视" group-title="卫视频道",🌐 海南卫视 | 451.2KB/s
-http://182.61.15.229:80/947472502
 #EXTINF:-1 tvg-name="新疆卫视" group-title="卫视频道",🌐 新疆卫视 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000150.m3u8
-#EXTINF:-1 tvg-name="云南卫视" group-title="卫视频道",🌐 云南卫视 | 1594.7KB/s
-http://p2.ioioz.com/xgplayer.php?id=https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
+#EXTINF:-1 tvg-name="新疆卫视" group-title="卫视频道",🌐 新疆卫视 | 428.7KB/s
+http://222.169.85.8:9901/tsfile/live/0110_1.m3u8
 #EXTINF:-1 tvg-name="云南卫视" group-title="卫视频道",🌐 云南卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000482.m3u8
 #EXTINF:-1 tvg-name="西藏卫视" group-title="卫视频道",🌐 西藏卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000489.m3u8
 #EXTINF:-1 tvg-name="西藏卫视" group-title="卫视频道",🌐 西藏卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000121.m3u8
+#EXTINF:-1 tvg-name="西藏卫视" group-title="卫视频道",🌐 西藏卫视 | 433.6KB/s
+http://221.7.175.154:8445/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="西藏卫视" group-title="卫视频道",🌐 西藏卫视 | 428.7KB/s
 http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="海峡卫视" group-title="卫视频道",🌐 海峡卫视 | 451.2KB/s
-http://182.61.15.229:80/849119120
-#EXTINF:-1 tvg-name="兵团卫视" group-title="卫视频道",🌐 兵团卫视 | 451.2KB/s
-http://182.61.15.229:80/956923145
 #EXTINF:-1 tvg-name="农林卫视" group-title="卫视频道",🌐 农林卫视 | 859.4KB/s
 http://120.76.248.139/live/bfgd/4200000122.m3u8
-#EXTINF:-1 tvg-name="农林卫视" group-title="卫视频道",🌐 农林卫视 | 451.2KB/s
-http://182.61.15.229:80/956904896
-#EXTINF:-1 tvg-name="三沙卫视" group-title="卫视频道",🌐 三沙卫视 | 451.2KB/s
-http://182.61.15.229:80/961023778
-#EXTINF:-1 tvg-name="延边卫视" group-title="卫视频道",🔒 延边卫视 | 514.6KB/s
-https://srs.iyb983.cn/video/CYS/index.m3u8
 #EXTINF:-1 tvg-name="延边卫视" group-title="卫视频道",🔒 延边卫视 | 514.6KB/s
 https://srs.iyb983.cn:443/video/CYS/index.m3u8
-#EXTINF:-1 tvg-name="快乐垂钓" group-title="数字频道",🌐 快乐垂钓 | 451.2KB/s
-http://182.61.15.229:80/961930263
+#EXTINF:-1 tvg-name="延边卫视" group-title="卫视频道",🔒 延边卫视 | 514.6KB/s
+https://srs.iyb983.cn/video/CYS/index.m3u8
+#EXTINF:-1 tvg-name="快乐垂钓" group-title="数字频道",🌐 快乐垂钓 | 365.2KB/s
+http://drive.mxmy.net:8888/udp/239.3.1.164:8001
 #EXTINF:-1 tvg-name="纪实科教" group-title="数字频道",🌐 纪实科教 | 862.3KB/s
 http://120.76.248.139/live/bfgd/4200000113.m3u8
-#EXTINF:-1 tvg-name="环球旅游" group-title="数字频道",🌐 环球旅游 | 859.4KB/s
+#EXTINF:-1 tvg-name="环球旅游" group-title="数字频道",🌐 环球旅游 | 856.4KB/s
 http://120.76.248.139/live/bfgd/4200000147.m3u8
-#EXTINF:-1 tvg-name="环球旅游" group-title="数字频道",🌐 环球旅游 | 451.2KB/s
-http://182.61.15.229:80/958475356
 #EXTINF:-1 tvg-name="人与自然" group-title="数字频道",🌐 人与自然 | 4116.2KB/s
 http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/1425e1d505654cb48ba82b807b221193/1200.m3u8
-#EXTINF:-1 tvg-name="经典动画大集合" group-title="☘️少儿频道",🌐 经典动画大集合 | 451.2KB/s
-http://182.61.15.229:80/629942219
-#EXTINF:-1 tvg-name="优漫卡通" group-title="☘️少儿频道",🌐 优漫卡通 | 451.2KB/s
-http://182.61.15.229:80/626064703
-#EXTINF:-1 tvg-name="嘉佳卡通" group-title="☘️少儿频道",🌐 嘉佳卡通 | 451.2KB/s
-http://182.61.15.229:80/614952364
-#EXTINF:-1 tvg-name="新动漫" group-title="☘️少儿频道",🌐 新动漫 | 451.2KB/s
-http://182.61.15.229:80/961930269

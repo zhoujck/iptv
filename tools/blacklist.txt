@@ -47,3 +47,6 @@ zhibo.hkstv.tv
 42.94.210.135
 8.135.27.147
 gslbmgsplive.miguvideo.com
+101.66.198.207
+222.169.85.8
+bp-resource-dfl.bestv.cn

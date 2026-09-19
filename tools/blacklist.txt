@@ -50,3 +50,5 @@ gslbmgsplive.miguvideo.com
 101.66.198.207
 222.169.85.8
 bp-resource-dfl.bestv.cn
+111.231.6.102
+221.7.175.154

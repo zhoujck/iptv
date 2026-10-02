@@ -41,3 +41,5 @@ bp-resource-dfl.bestv.cn
 222.169.85.8
 epg.pw
 gslbmgsplive.miguvideo.com
+114.102.131.146
+115.171.53.99

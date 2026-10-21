@@ -8,8 +8,6 @@ import concurrent.futures
 import time
 import threading
 from collections import OrderedDict
-import ssl
-import socket
 import hashlib
 import warnings
 
@@ -29,13 +27,15 @@ RUN_COUNT_FILE = os.path.join(CONFIG_DIR, 'run_count.txt')
 OUTPUT_DIR = 'output'
 SPEED_LOG = os.path.join(OUTPUT_DIR, 'sort.log')
 
-SPEED_TEST_DURATION = 5   #测速时常5秒
+SPEED_TEST_DURATION = 5   #测速最长5秒，超过阈值会提前结束
+SPEED_EARLY_SECONDS = 1    #至少测1秒，避免刚连上就误判为达标
 MAX_WORKERS = 10   #测速并发线程10条
 HTTPS_VERIFY = False   #是否验证HTTPS SLL 证书
 SPEED_THRESHOLD = 300   # 速度阈值 KB/s
 MAX_SOURCES_PER_CHANNEL = 5  # 每个频道最多5源
 RESET_COUNT = 12        # 运行12次后重置黑名单
 TEST_ALL_SOURCES = False # True=检测所有源, False=只检测模板内的源
+WRITE_BLACKLIST = False # True=测速失败的域名写入黑名单, False=只跳过本次，不记入黑名单
 
 # 全局变量
 failed_domains = set()
@@ -136,6 +136,8 @@ def is_duplicate_url(url):
 
 def update_blacklist(domain):
     """更新黑名单"""
+    if not WRITE_BLACKLIST:
+        return
     if domain and domain not in ['localhost', '127.0.0.1']:
         with domain_lock:
             failed_domains.add(domain)
@@ -143,7 +145,7 @@ def update_blacklist(domain):
 
 def save_blacklist():
     """保存黑名单到文件"""
-    if not failed_domains:
+    if not WRITE_BLACKLIST or not failed_domains:
         return
 
     try:
@@ -183,23 +185,6 @@ def get_protocol(url):
         return urlparse(url).scheme.lower()
     except:
         return 'unknown'
-
-
-def test_https_certificate(domain, port=443):
-    """测试HTTPS证书有效性"""
-    try:
-        context = ssl.create_default_context()
-        with socket.create_connection((domain, port), timeout=5) as sock:
-            with context.wrap_socket(sock, server_hostname=domain) as ssock:
-                cert = ssock.getpeercert()
-                not_after = cert.get('notAfter', '')
-                if not_after:
-                    return True, "证书有效"
-                return True, "证书信息获取成功"
-    except ssl.SSLError as e:
-        return False, f"SSL错误: {str(e)}"
-    except Exception as e:
-        return False, f"证书检查失败: {str(e)}"
 
 
 def check_dependencies():
@@ -271,26 +256,30 @@ def fetch_sources():
             urls = [line.strip() for line in f if line.strip() and not line.strip().startswith('#')]
 
         print(f"  发现 {len(urls)} 个订阅地址")
-        for idx, url in enumerate(urls, 1):
+
+        def fetch_one(idx, url):
             try:
                 print(f"\n🌐 正在获取源 ({idx}/{len(urls)})：{url[:50]}...")
                 response = requests.get(url, timeout=15, verify=HTTPS_VERIFY)
                 response.raise_for_status()
                 content = response.text
-
                 if '#EXTM3U' in content or url.endswith('.m3u'):
                     parsed = parse_m3u(content)
-                    print(f"  解析到 {len(parsed)} 个M3U源")
-                    sources.extend(parsed)
+                    print(f"  解析到 {len(parsed)} 个M3U源 ← {url[:50]}")
                 else:
                     parsed = parse_txt(content)
-                    print(f"  解析到 {len(parsed)} 个TXT源")
-                    sources.extend(parsed)
-
+                    print(f"  解析到 {len(parsed)} 个TXT源 ← {url[:50]}")
+                return parsed
             except requests.exceptions.RequestException as e:
-                print(f"❌ 下载失败: {str(e)}")
+                print(f"❌ 下载失败: {url[:50]} | {str(e)}")
             except Exception as e:
-                print(f"❌ 处理订阅源异常: {str(e)}")
+                print(f"❌ 处理订阅源异常: {url[:50]} | {str(e)}")
+            return []
+
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+            futures = [pool.submit(fetch_one, idx, url) for idx, url in enumerate(urls, 1)]
+            for future in concurrent.futures.as_completed(futures):
+                sources.extend(future.result())
 
     except FileNotFoundError:
         print(f"⚠️ 订阅文件 {SUBSCRIBE_FILE} 不存在")
@@ -410,7 +399,8 @@ def parse_local():
                                 source = {
                                     'name': name,
                                     'url': clean_url,
-                                    'whitelist': len(parts) > 1
+                                    'whitelist': True,
+                                    'local': True
                                 }
                                 sources.append(source)
                     except Exception as e:
@@ -496,8 +486,8 @@ def test_rtmp(url):
             text=True
         )
         if result.returncode == 0:
-            write_log(f"RTMP检测成功: {url}")
-            return 100
+            write_log(f"RTMP检测成功，按合格计入: {url}")
+            return None
         else:
             error_msg = result.stderr[:100] if result.stderr else "未知错误"
             write_log(f"RTMP检测失败: {url} | {error_msg}")
@@ -510,107 +500,61 @@ def test_rtmp(url):
         return 0
 
 
-def test_https_specific(url, domain):
-    """HTTPS协议特殊检测"""
-    try:
-        cert_valid, cert_msg = test_https_certificate(domain)
-
-        start_time = time.time()
-        with requests.Session() as session:
-            response = session.get(url,
-                                   stream=True,
-                                   timeout=(3.05, SPEED_TEST_DURATION + 2),
-                                   allow_redirects=True,
-                                   verify=HTTPS_VERIFY,
-                                   headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
+def measure_http_speed(url):
+    """下载测速。满 1 秒且已超过阈值时提前结束，最长不超过 SPEED_TEST_DURATION。"""
+    start_time = time.time()
+    with requests.Session() as session:
+        response = session.get(url,
+                               stream=True,
+                               timeout=(3.05, SPEED_TEST_DURATION + 2),
+                               allow_redirects=True,
+                               verify=HTTPS_VERIFY,
+                               headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
+        try:
             response.raise_for_status()
-
             total_bytes = 0
             data_start = time.time()
-            for chunk in response.iter_content(chunk_size=1024 * 1024):
+            early = False
+            for chunk in response.iter_content(chunk_size=64 * 1024):
                 if chunk:
                     total_bytes += len(chunk)
-                if (time.time() - data_start) >= SPEED_TEST_DURATION:
+                elapsed = time.time() - data_start
+                if elapsed >= SPEED_TEST_DURATION:
                     break
-
+                if elapsed >= SPEED_EARLY_SECONDS and total_bytes > 0:
+                    if (total_bytes / 1024) / elapsed > SPEED_THRESHOLD:
+                        early = True
+                        break
             duration = max(time.time() - data_start, 0.001)
             speed = (total_bytes / 1024) / duration
-
-            https_info = f" | 证书: {'有效' if cert_valid else '无效'}"
-            log_msg = (f"✅ HTTPS测速成功: {url}\n"
-                       f"   速度: {speed:.2f}KB/s | 数据量: {total_bytes / 1024:.1f}KB | "
-                       f"总耗时: {time.time() - start_time:.2f}s{https_info}")
-            write_log(log_msg)
-            return speed
-
-    except requests.exceptions.SSLError as e:
-        log_msg = f"❌ HTTPS SSL错误: {url} | 锒误: {str(e)}"
-        write_log(log_msg)
-        return 0
-    except Exception as e:
-        domain = get_domain(url)
-        update_blacklist(domain)
-        log_msg = f"❌ HTTPS测速失败: {url} | 错误: {str(e)}"
-        write_log(log_msg)
-        return 0
+            return speed, total_bytes, time.time() - start_time, early
+        finally:
+            response.close()
 
 
 def test_speed(url):
-    """增强版测速函数，支持多协议和HTTPS证书检测"""
+    """测速。HTTP/HTTPS 走下载，RTMP 只探测能否连通。"""
     try:
         protocol = get_protocol(url)
 
-        # RTMP协议处理
         if protocol in ['rtmp', 'rtmps']:
             return test_rtmp(url)
 
-        # 非常规协议跳过
         if protocol not in ['http', 'https']:
             write_log(f"⚠️ 跳过非常规协议: {url}")
             return 0
 
-        # HTTPS协议特殊处理
-        if protocol == 'https':
-            domain = get_domain(url)
-            if domain:
-                return test_https_specific(url, domain)
-            else:
-                write_log(f"⚠️ 无法提取HTTPS域名: {url}")
-                return 0
+        speed, total_bytes, elapsed, early = measure_http_speed(url)
+        if speed > SPEED_THRESHOLD:
+            status = "✅ 通过阈值" + ("，提前结束" if early else "")
+        else:
+            status = "🚫 未达阈值"
 
-        # 普通HTTP请求
-        start_time = time.time()
-        with requests.Session() as session:
-            response = session.get(url,
-                                   stream=True,
-                                   timeout=(3.05, SPEED_TEST_DURATION + 2),
-                                   allow_redirects=True,
-                                   verify=False,
-                                   headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
-            response.raise_for_status()
-
-            total_bytes = 0
-            data_start = time.time()
-            for chunk in response.iter_content(chunk_size=1024 * 1024):
-                if chunk:
-                    total_bytes += len(chunk)
-                if (time.time() - data_start) >= SPEED_TEST_DURATION:
-                    break
-
-            duration = max(time.time() - data_start, 0.001)
-            speed = (total_bytes / 1024) / duration
-
-            # 速度阈值检查
-            if speed > SPEED_THRESHOLD:
-                status = "✅ 通过阈值"
-            else:
-                status = "🚫 未达阈值"
-
-            log_msg = (f"{status} HTTP测速: {url}\n"
-                       f"   速度: {speed:.2f}KB/s | 数据量: {total_bytes / 1024:.1f}KB | "
-                       f"总耗时: {time.time() - start_time:.2f}s | 阈值: {SPEED_THRESHOLD}KB/s")
-            write_log(log_msg)
-            return speed
+        log_msg = (f"{status} {protocol.upper()}测速: {url}\n"
+                   f"   速度: {speed:.2f}KB/s | 数据量: {total_bytes / 1024:.1f}KB | "
+                   f"总耗时: {elapsed:.2f}s | 阈值: {SPEED_THRESHOLD}KB/s")
+        write_log(log_msg)
+        return speed
 
     except requests.exceptions.RequestException as e:
         domain = get_domain(url)
@@ -655,6 +599,21 @@ def process_sources(sources):
                 continue
             seen_urls.add(url_hash)
 
+            if s.get('local'):
+                name = s['name']
+                url = s['url']
+                protocol = get_protocol(url)
+                processed_count += 1
+                passed_count += 1
+                if protocol not in protocol_stats:
+                    protocol_stats[protocol] = {'total': 0, 'passed': 0}
+                protocol_stats[protocol]['total'] += 1
+                protocol_stats[protocol]['passed'] += 1
+                if not is_duplicate_url(url):
+                    processed.append((name, url, None, 'ipv4', protocol, True))
+                print(f"[{processed_count}/{total}] ✅ 频道: {name[:20].ljust(20)} | 本地源，跳过测速 | {url[:80]}...")
+                continue
+
             future = executor.submit(
                 lambda s: (s['name'], s['url'], test_speed(s['url']),
                            get_ip_type(s['url']), get_protocol(s['url'])), s)
@@ -671,19 +630,19 @@ def process_sources(sources):
                         protocol_stats[protocol] = {'total': 0, 'passed': 0}
                     protocol_stats[protocol]['total'] += 1
 
-                speed_str = f"{speed:>7.2f}KB/s"
+                speed_str = "  RTMP合格" if speed is None else f"{speed:>7.2f}KB/s"
                 name_display = name[:20].ljust(20)
                 protocol_icon = "🔒" if protocol == "https" else "📹" if protocol in ['rtmp', 'rtmps'] else "🌐"
 
-                # 应用速度阈值过滤
-                if speed > SPEED_THRESHOLD:
+                # RTMP 连通记为合格；HTTP/HTTPS 必须超过速度阈值
+                if speed is None or speed > SPEED_THRESHOLD:
                     status = "✅"
                     passed_count += 1
                     protocol_stats[protocol]['passed'] += 1
 
                     # 再次检查URL去重（多线程环境下）
                     if not is_duplicate_url(url):
-                        processed.append((name, url, speed, ip_type, protocol))
+                        processed.append((name, url, speed, ip_type, protocol, False))
                     else:
                         print(f"🔁 检测到重复URL（已跳过）: {name} | {url[:50]}...")
                         passed_count -= 1
@@ -726,9 +685,9 @@ def organize_channels(processed, alias_map, group_map):
     organized = {'ipv4': OrderedDict(), 'ipv6': OrderedDict()}
     duplicate_stats = {'total': 0, 'channel': {}}
 
-    for name, url, speed, ip_type, protocol in processed:
-        if ip_type not in ('ipv4', 'ipv6'):
-            ip_type = 'ipv4'
+    for name, url, speed, ip_type, protocol, is_local in processed:
+        # 测速已通过的 IPv4 / IPv6 都写入同一份结果
+        ip_type = 'ipv4'
 
         std_name = alias_map.get(name, name)
         group = group_map.get(std_name, '其他')
@@ -743,17 +702,20 @@ def organize_channels(processed, alias_map, group_map):
         normalized_url = normalize_url(url)
 
         if normalized_url in existing_urls:
-            # 找到重复源，保留速度更快的
-            for i, (existing_url, existing_speed, existing_protocol) in enumerate(organized[ip_type][group][std_name]):
+            # 同一地址只留一条：本地源优先，否则留速度更快的
+            for i, (existing_url, existing_speed, existing_protocol, existing_local) in enumerate(organized[ip_type][group][std_name]):
                 if normalize_url(existing_url) == normalized_url:
-                    if speed > existing_speed:
-                        organized[ip_type][group][std_name][i] = (url, speed, protocol)
+                    prefer_new = (is_local and not existing_local) or (
+                        is_local == existing_local and (speed or 0) > (existing_speed or 0)
+                    )
+                    if prefer_new:
+                        organized[ip_type][group][std_name][i] = (url, speed, protocol, is_local)
                         duplicate_stats['total'] += 1
                         duplicate_stats['channel'][std_name] = duplicate_stats['channel'].get(std_name, 0) + 1
-                        print(f"🔄 频道 '{std_name}' 替换重复URL: 新速度 {speed:.1f}KB/s > 旧速度 {existing_speed:.1f}KB/s")
+                        print(f"🔄 频道 '{std_name}' 替换重复URL")
                     break
         else:
-            organized[ip_type][group][std_name].append((url, speed, protocol))
+            organized[ip_type][group][std_name].append((url, speed, protocol, is_local))
 
     # 打印去重统计
     if duplicate_stats['total'] > 0:
@@ -763,7 +725,10 @@ def organize_channels(processed, alias_map, group_map):
     for ip_type in ['ipv4', 'ipv6']:
         for group in organized[ip_type]:
             for channel in organized[ip_type][group]:
-                organized[ip_type][group][channel].sort(key=lambda x: x[1], reverse=True)
+                organized[ip_type][group][channel].sort(
+                    key=lambda x: (1 if x[3] else 0, x[1] or 0),
+                    reverse=True
+                )
 
     return organized
 
@@ -823,14 +788,10 @@ def finalize_output(organized, group_order, channel_order):
     """生成输出文件 - 保持原目录结构，文件名带ipv4/ipv6前缀"""
     print("\n📂 生成结果文件...")
 
-    for ip_type in ['ipv4', 'ipv6']:
+    for ip_type in ['ipv4']:
         txt_file = os.path.join(OUTPUT_DIR, f'{ip_type}_result.txt')
-        m3u_file = os.path.join(OUTPUT_DIR, f'{ip_type}_result.m3u')
 
         txt_lines = []
-        m3u_lines = [
-            '#EXTM3U x-tvg-url="https://gh.catmak.name/https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/epg/epg.gz"'
-        ]
 
         total_sources = 0
         speed_stats = []
@@ -853,20 +814,17 @@ def finalize_output(organized, group_order, channel_order):
                 # 频道内去重
                 seen_in_channel = set()
                 unique_urls = []
-                for url, speed, protocol in all_urls:
+                for url, speed, protocol, is_local in all_urls:
                     normalized_url = normalize_url(url)
                     if normalized_url not in seen_in_channel:
                         seen_in_channel.add(normalized_url)
-                        unique_urls.append((url, speed, protocol))
+                        unique_urls.append((url, speed, protocol, is_local))
 
-                for url, speed, protocol in unique_urls[:MAX_SOURCES_PER_CHANNEL]:
+                for url, speed, protocol, is_local in unique_urls[:MAX_SOURCES_PER_CHANNEL]:
                     txt_lines.append(f"{channel},{url}")
                     total_sources += 1
-                    speed_stats.append(speed)
-
-                    protocol_icon = "🔒" if protocol == "https" else "📹" if protocol in ['rtmp', 'rtmps'] else "🌐"
-                    m3u_lines.append(f'#EXTINF:-1 tvg-name="{channel}" group-title="{group}",{protocol_icon} {channel} | {speed:.1f}KB/s')
-                    m3u_lines.append(url)
+                    if speed is not None:
+                        speed_stats.append(speed)
 
                 seen_channels.add(channel)
 
@@ -880,21 +838,18 @@ def finalize_output(organized, group_order, channel_order):
 
                 seen_in_channel = set()
                 unique_urls = []
-                for url, speed, protocol in all_urls:
+                for url, speed, protocol, is_local in all_urls:
                     normalized_url = normalize_url(url)
                     if normalized_url not in seen_in_channel:
                         seen_in_channel.add(normalized_url)
-                        unique_urls.append((url, speed, protocol))
+                        unique_urls.append((url, speed, protocol, is_local))
 
                 if unique_urls:
-                    for url, speed, protocol in unique_urls[:MAX_SOURCES_PER_CHANNEL]:
+                    for url, speed, protocol, is_local in unique_urls[:MAX_SOURCES_PER_CHANNEL]:
                         txt_lines.append(f"{channel},{url}")
                         total_sources += 1
-                        speed_stats.append(speed)
-
-                        protocol_icon = "🔒" if protocol == "https" else "📹" if protocol in ['rtmp', 'rtmps'] else "🌐"
-                        m3u_lines.append(f'#EXTINF:-1 tvg-name="{channel}" group-title="{group}",{protocol_icon} {channel} | {speed:.1f}KB/s')
-                        m3u_lines.append(url)
+                        if speed is not None:
+                            speed_stats.append(speed)
 
                     seen_channels.add(channel)
 
@@ -909,30 +864,25 @@ def finalize_output(organized, group_order, channel_order):
 
                 seen_in_channel = set()
                 unique_urls = []
-                for url, speed, protocol in all_urls:
+                for url, speed, protocol, is_local in all_urls:
                     normalized_url = normalize_url(url)
                     if normalized_url not in seen_in_channel:
                         seen_in_channel.add(normalized_url)
-                        unique_urls.append((url, speed, protocol))
+                        unique_urls.append((url, speed, protocol, is_local))
 
                 if unique_urls:
-                    for url, speed, protocol in unique_urls[:MAX_SOURCES_PER_CHANNEL]:
+                    for url, speed, protocol, is_local in unique_urls[:MAX_SOURCES_PER_CHANNEL]:
                         txt_lines.append(f"{channel},{url}")
                         total_sources += 1
-                        speed_stats.append(speed)
-
-                        protocol_icon = "🔒" if protocol == "https" else "📹" if protocol in ['rtmp', 'rtmps'] else "🌐"
-                        m3u_lines.append(f'#EXTINF:-1 tvg-name="{channel}" group-title="其他",{protocol_icon} {channel} | {speed:.1f}KB/s')
-                        m3u_lines.append(url)
+                        if speed is not None:
+                            speed_stats.append(speed)
 
         # 最终去重
-        txt_lines, m3u_lines = deduplicate_final_output(txt_lines, m3u_lines)
+        txt_lines, _ = deduplicate_final_output(txt_lines, [])
 
         # 写入文件
         with open(txt_file, 'w', encoding='utf-8') as f:
             f.write('\n'.join(txt_lines))
-        with open(m3u_file, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(m3u_lines))
 
         # 统计信息
         if speed_stats:
@@ -942,9 +892,8 @@ def finalize_output(organized, group_order, channel_order):
         else:
             avg_speed = max_speed = min_speed = 0
 
-        print(f"✅ 已生成 {ip_type.upper()} 文件:")
+        print(f"✅ 已生成文件:")
         print(f"   📄 {txt_file} - {len(txt_lines)} 行")
-        print(f"   📺 {m3u_file} - {len(m3u_lines)} 行")
         print(f"   📊 统计: {total_sources} 个源 | 平均速度: {avg_speed:.1f}KB/s")
         print(f"   📈 速度范围: {min_speed:.1f} - {max_speed:.1f}KB/s")
 
@@ -952,7 +901,7 @@ def finalize_output(organized, group_order, channel_order):
         protocol_count = {}
         for group in organized[ip_type]:
             for channel in organized[ip_type][group]:
-                for url, speed, protocol in organized[ip_type][group][channel]:
+                for url, speed, protocol, is_local in organized[ip_type][group][channel]:
                     protocol_count[protocol] = protocol_count.get(protocol, 0) + 1
 
         if protocol_count:
@@ -975,6 +924,7 @@ if __name__ == '__main__':
     print(f"   👥 最大并发数: {MAX_WORKERS}")
     print(f"   📁 输出目录: {OUTPUT_DIR}")
     print(f"   📋 模板过滤: {'检测所有源' if TEST_ALL_SOURCES else '只检测模板内的源'}")
+    print(f"   🚫 写入黑名单: {'开启' if WRITE_BLACKLIST else '关闭'}")
     print(f"   🔁 去重功能: 已启用")
 
     # 检查依赖
@@ -993,7 +943,7 @@ if __name__ == '__main__':
 
     # 初始化数据
     alias_map, group_map, group_order, channel_order = parse_demo_file()
-    sources = fetch_sources() + parse_local()
+    sources = parse_local() + fetch_sources()
     blacklist = read_blacklist()
 
     # 处理流程
@@ -1009,8 +959,7 @@ if __name__ == '__main__':
     if run_count >= RESET_COUNT - 1:
         print(f"⚠️ 下次运行将清空黑名单")
     print(f"📁 结果文件:")
-    print(f"   {OUTPUT_DIR}/ipv4_result.txt, ipv4_result.m3u")
-    print(f"   {OUTPUT_DIR}/ipv6_result.txt, ipv6_result.m3u")
-    print("🔍 所有协议源已合并到同一文件中")
+    print(f"   {OUTPUT_DIR}/ipv4_result.txt")
+    print("🔍 只保留 IPv4 文本列表，本地源不测速并排在各频道前面")
     print("✅ 去重功能已启用，已移除重复的URL")
     print("=" * 60)
